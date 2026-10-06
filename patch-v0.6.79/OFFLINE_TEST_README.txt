@@ -1,7 +1,3 @@
-# TelegramAssistant 私有补丁交付
-
-最新 v0.6.79。下载 TelegramAssistant-v0.6.79-patch.zip，点击 Download raw file，备份后覆盖。
-
 v0.6.79：修复Done无法接收焦点导致提交前停止。
 本次三份报告一致：289–291已登记，@apar3名单序号17占用待添加，292真实键盘填写成功；提交报告SetFocus失败，create_attempted/create_invoked均false。
 Done为不可获得焦点的Ui::RoundButton，取消对Done.SetFocus的依赖。
