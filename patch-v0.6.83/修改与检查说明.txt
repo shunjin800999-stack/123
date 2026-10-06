@@ -1,8 +1,4 @@
-# TelegramAssistant 私有补丁交付
-
-最新 v0.6.83。下载 TelegramAssistant-v0.6.83-patch.zip，点击 Download raw file，备份后覆盖全部文件。
-
-TelegramAssistant v0.6.83：修正UIA鼠标命中检查阻止Done点击
+﻿TelegramAssistant v0.6.83：修正UIA鼠标命中检查阻止Done点击
 
 本次现场证据：@kaiklucca、用户名名单序号20、备注295，字段填写正确；提交报告错误Physical Done hit mismatch: Write a message...; no click sent.；create_attempted=false、create_invoked=false，未发送点击。Done bounds left890/top754/width66/height34与独立控件报告一致，取中心923,771。UIA FromPoint却返回底层聊天输入框，原逻辑因此阻止点击。
 
