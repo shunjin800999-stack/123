@@ -1,7 +1,3 @@
-# TelegramAssistant 私有补丁交付
-
-最新 v0.6.67：添加成功后自动关闭用户名资料页。
-下载 TelegramAssistant-v0.6.67-patch.zip，点击 Download raw file，备份后覆盖。
 v0.6.67：用户名联系人添加成功并核验登记后，自动关闭匹配用户名及数字备注的资料页。
 包括最后一位联系人；关闭核验通过后才执行下一位或下一账号。
 只点击 Close panel / Fechar painel；窗口、资料页身份或数字备注不匹配时不关闭。
