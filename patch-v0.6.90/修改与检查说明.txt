@@ -1,8 +1,4 @@
-# TelegramAssistant 私有补丁交付
-
-最新 v0.6.90。下载 TelegramAssistant-v0.6.90-patch.zip，点击 Download raw file，备份后覆盖全部文件。
-
-TelegramAssistant v0.6.90：Done之后等待原添加表单自行消失，不Cancel刚提交的表单
+﻿TelegramAssistant v0.6.90：Done之后等待原添加表单自行消失，不Cancel刚提交的表单
 
 本次报告：队列36、批次48、账号1，@matheuspanaro名单序号47，备注322。填写0.770秒、提交加关闭重开2.492秒，persistent_username_worker已经复用。Done输入结束1081ms，关闭流程开始1087ms，相差约6ms；报告submitted_form_close_attempted/invoked=true，表示原New Contact尚在时立即调用了Cancel。
 随后确已物理关闭旧资料页、重新打开同一用户名且运行ID改变，但两次独立读取仍是Matheus Panaro、ADD TO CONTACTS，未确认保存，322未递增。风险是输入送达和Qt处理Done不是同一时刻，提速后立即Cancel可能早于保存处理完成；日志无法单独确定服务器结果。
