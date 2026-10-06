@@ -1,7 +1,3 @@
-# TelegramAssistant 私有补丁交付
-
-最新 v0.6.71。下载 TelegramAssistant-v0.6.71-patch.zip，点击 Download raw file，备份后覆盖。
-
 v0.6.71：改进用户名Done提交，并支持核验未保存任务后恢复一次。
 备份整个程序目录，关闭助手，解压全部补丁覆盖原文件；保留数据库。
 用户名提交时激活绑定Telegram窗口，移出姓名输入框焦点，重新核验字段。
