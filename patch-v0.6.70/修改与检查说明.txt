@@ -1,6 +1,3 @@
-# TelegramAssistant 私有补丁交付
-
-最新 v0.6.70。下载 TelegramAssistant-v0.6.70-patch.zip，点击 Download raw file，备份后覆盖。
 v0.6.70：核验已提交资料页并继续支持用户名原任务。
 适用Done已点击但未确认成功、后来手动成功保存的原用户名任务。
 保留当前正确用户名资料页，需数字备注匹配、Edit contact/Delete contact且无Add to contacts，两次只读核验后登记一次成功、递增编号、自动关闭资料页继续。
