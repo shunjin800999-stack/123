@@ -1,7 +1,3 @@
-# TelegramAssistant 私有补丁交付
-
-最新 v0.6.74。下载 TelegramAssistant-v0.6.74-patch.zip，点击 Download raw file，备份后覆盖。
-
 v0.6.74：修复用户名Done点击前目标核验过严，并补充物理坐标及命中诊断。
 报告确认287前两次create_attempted/create_invoked均为false，未发送提交点击。
 原FromPoint只允许运行编号与Done完全相同；Qt控件层级可能不返回同一编号。此次报告没有命中细节，不能断言具体底层原因。
