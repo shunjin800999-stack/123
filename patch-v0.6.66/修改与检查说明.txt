@@ -1,6 +1,3 @@
-# TelegramAssistant 私有补丁交付
-
-最新版本 v0.6.66。下载 TelegramAssistant-v0.6.66-patch.zip，点击 Download raw file，备份后解压覆盖。
 v0.6.66：用户名查询期间控件树切换导致 FindAll 异常的处理。
 查询阶段读控件失败时，在原9秒期限内重新获取窗口控件并核对身份；不重复执行按钮动作。
 持续异常仍暂停，保留最后读取错误和读取重试次数。
