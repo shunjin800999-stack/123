@@ -1,8 +1,4 @@
-# TelegramAssistant 私有补丁交付
-
-最新 v0.6.85。下载 TelegramAssistant-v0.6.85-patch.zip，点击 Download raw file，备份后覆盖全部文件。
-
-TelegramAssistant v0.6.85：Done后立即关闭原页面并重新打开用户名核验
+﻿TelegramAssistant v0.6.85：Done后立即关闭原页面并重新打开用户名核验
 
 本次队列报告：302、303、304、305、306全部已核验成功，原计划5人完成，队列正常结束，下一编号307。相邻提交记录约14秒。本次针对中间等待及进程查询开销提速，不重新添加这5位，不自动建立新任务。
 
