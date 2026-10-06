@@ -1,8 +1,4 @@
-# TelegramAssistant 私有补丁交付
-
-最新 v0.6.81。下载 TelegramAssistant-v0.6.81-patch.zip，点击 Download raw file，备份后覆盖全部文件。
-
-TelegramAssistant v0.6.81：真实鼠标提交用户名联系人
+﻿TelegramAssistant v0.6.81：真实鼠标提交用户名联系人
 
 任务规则：
 同一账号连续两次手机号提示用户未加入Telegram，关闭提示并立即切换@用户名；用户名成功后继续本账号，直到已确认成功人数达到原计划，再执行下一个账号并从手机号开始。
