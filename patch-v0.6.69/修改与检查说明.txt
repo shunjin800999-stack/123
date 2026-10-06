@@ -1,6 +1,3 @@
-# TelegramAssistant 私有补丁交付
-
-最新 v0.6.69。下载 TelegramAssistant-v0.6.69-patch.zip，点击 Download raw file，备份后覆盖。
 v0.6.69：修复手机号失败两次后留下原手机号表单，阻挡用户名查询。
 切换用户名前，核验原失败任务的窗口及手机号表单身份，点击 Cancel/Cancelar 并确认关闭，再查询用户名。
 不关闭身份不明的弹窗；添加限制及未知结果仍暂停。
