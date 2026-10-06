@@ -1,7 +1,3 @@
-# TelegramAssistant 私有补丁交付
-
-最新 v0.6.91。下载 TelegramAssistant-v0.6.91-patch.zip，点击 Download raw file，备份后覆盖全部文件。
-
 TelegramAssistant v0.6.91：未确认保存时增加一次延后刷新，不重复提交
 
 本次账号1、@cassiasilene、备注324：Done后原表单622ms自行退出，确实关闭旧资料页并重开，但独立核验仍显示Cassia和ADD TO CONTACTS。322、323已确认成功。日志不能证明唯一原因，不能仅认定点击太快。
