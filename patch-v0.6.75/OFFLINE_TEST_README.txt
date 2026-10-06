@@ -1,7 +1,3 @@
-# TelegramAssistant 私有补丁交付
-
-最新 v0.6.75。下载 TelegramAssistant-v0.6.75-patch.zip，点击 Download raw file，备份后覆盖。
-
 v0.6.75：用户名Done点击与保存成功核验分离，采用独立只读检查两次确认。
 报告表明287真实点击已执行，点击脚本的资料页核验未通过，尚未登记287。
 改为原生脚本证明一次Done真实点击后返回awaiting_profile；不把此状态当添加成功。
