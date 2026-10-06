@@ -1,6 +1,3 @@
-# TelegramAssistant 私有补丁交付
-
-最新 v0.6.72。下载 TelegramAssistant-v0.6.72-patch.zip，点击 Download raw file，备份后覆盖。
 v0.6.72：恢复已添加但仍在重新查询阶段的用户名原任务。
 备份后覆盖，保留原数据库。
 本次286：打开 @Givison_Alves 资料页，确保显示数字备注286及Edit contact/Delete contact，点击「核验已提交资料页并继续」。
