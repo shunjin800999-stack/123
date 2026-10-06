@@ -1,8 +1,4 @@
-# TelegramAssistant 私有补丁交付
-
-最新 v0.6.82。下载 TelegramAssistant-v0.6.82-patch.zip，点击 Download raw file，备份后覆盖全部文件。
-
-TelegramAssistant v0.6.82：重新打开时已保存联系人的自动核验继续
+﻿TelegramAssistant v0.6.82：重新打开时已保存联系人的自动核验继续
 
 本次报告证据：队列30原任务@ediegna、名单序号19、待用备注294，重新打开状态opening；最新原生报告处于resolve_requested，fields_written/add_invoked/create_attempted/create_invoked全部false。异常为“User already a contact or Add contact is missing.”；本次尚未进入新表单填写或鼠标提交。截图显示294、Edit contact、Delete contact，联系人已保存。
 根因：重新打开资料页原逻辑只接受未添加状态，发现已添加时反复读取后超时，而未自动进入原提交归档核验。
