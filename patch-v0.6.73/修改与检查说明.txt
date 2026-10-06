@@ -1,6 +1,3 @@
-# TelegramAssistant 私有补丁交付
-
-最新 v0.6.73。下载 TelegramAssistant-v0.6.73-patch.zip，点击 Download raw file，备份后覆盖。
 v0.6.73：Done没有UIAutomation可点击点时使用按钮可见边界中心，仍检查实际命中的同一个Done按钮及前台窗口。
 备份后覆盖。保留287当前表单，点击新增「继续提交未点击的用户名表单」。
 仅原报告明确create_attempted=false/create_invoked=false、原填写证据和编号一致时允许恢复一次。
