@@ -1,7 +1,3 @@
-# TelegramAssistant 私有补丁交付
-
-最新 v0.6.76。下载 TelegramAssistant-v0.6.76-patch.zip，点击 Download raw file，备份后覆盖。
-
 v0.6.76：移除用户名Done鼠标提交路径，改为核验姓氏输入框焦点后按Enter提交。
 本次两份报告确认 @andrei_ribeeiro 仍显示ADD TO CONTACTS，无法登记287成功。
 旧鼠标报告的UIAutomation命中为Write a message聊天输入框。窗口及按钮边界不足以证明实际点击目标正确，移除该路径。
