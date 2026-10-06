@@ -1,7 +1,3 @@
-# TelegramAssistant 私有补丁交付
-
-最新 v0.6.77。下载 TelegramAssistant-v0.6.77-patch.zip，点击 Download raw file，备份后覆盖。
-
 v0.6.77：用户名姓名改为真实键盘填写，提交直接激活有焦点的Done按钮，检查SendInput投递数量。
 原自动输入通过ValuePattern.SetValue，提交通过姓氏框Enter；此前报告证明这些调用和焦点核验不等于实际保存成功。
 此次排除这两处不确定性：前台和姓名输入框两次焦点核验后，Ctrl+A/Backspace/Unicode键盘输入数字备注，清空姓氏，再读取字段验证。
