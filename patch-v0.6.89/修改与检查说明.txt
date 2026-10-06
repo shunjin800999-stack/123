@@ -1,8 +1,4 @@
-# TelegramAssistant 私有补丁交付
-
-最新 v0.6.89。下载 TelegramAssistant-v0.6.89-patch.zip，点击 Download raw file，备份后覆盖全部文件。
-
-TelegramAssistant v0.6.89：复用用户名操作进程及去除固定等待
+﻿TelegramAssistant v0.6.89：复用用户名操作进程及去除固定等待
 
 本次现场报告：317、318、319、320、321全部核验成功，队列正常完成，下一编号322。相邻提交约12秒；打开阶段约3秒、填写约2.4秒、提交含关闭重开约3.3–3.5秒，各阶段transport=standalone_powershell。阶段耗时包含进程启动，不能把所有时间归为Telegram网络延迟。
 
