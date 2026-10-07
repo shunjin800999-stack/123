@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.ocr-env/
+*.sqlite3
+*.sqlite
+*.db
+*.log
+owner-tool/授权密钥/
+client/ocr_models/*.onnx
