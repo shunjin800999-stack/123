@@ -1,7 +1,3 @@
-# TelegramAssistant 私有补丁交付
-
-最新v0.6.93。下载ZIP后点击Download raw file。
-
 v0.6.93：修复Done后弹窗过渡导致提前停止
 账号1已完成362～381并自动进入账号2。@psychokire备注382已保存，但提交后某次UIA读取看到BoxLayer仍存在且GenericBox运行ID不同或已消失，原逻辑立即报Different modal after Done。随后的实际资料页与导出控件报告满足382、同用户名、Edit/Delete成功条件。日志不能确定短暂弹窗的具体内容。
 修复：Done后发生该变化时不立即停止，而在原有最多2秒等待窗口内只读重查，期间不点击任何弹窗。BoxLayer完全消失才继续关闭旧页、重开同一用户名并独立两次核验；持久异常弹窗仍暂停保留，不重复Done、不Cancel。正常流程无新增固定等待。
