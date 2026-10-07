@@ -1,7 +1,3 @@
-# TelegramAssistant 私有补丁交付
-
-最新v0.6.101。ZIP页面点击Download raw file。
-
 v0.6.101：选人完成即任务结束，不再确认或记录手动邀请结果
 移除群①/②全部邀请成功确认按钮，以及使用记录的人工邀请成功按钮。默认自动流程群选人通过后状态selection_finished；两个群都完成后批次selection_done，释放下一批任务，不等待手动Add确认。Telegram最终Add仍由用户手动点击，程序不推断邀请成功、不增加完成邀请记录、不改联系人成功状态或编号。
 启动时对历史同计划两个群均具有成功选人核验证据的waiting_for_manual_invite记录转为selection_finished，并结束active/waiting批次。只完成群1不结束两群任务；失败、缺少证据、计划不匹配或已真实登记邀请结果的历史记录不自动改写。历史报告和原人工邀请成功事实保留。
