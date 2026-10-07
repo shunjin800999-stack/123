@@ -1,0 +1,261 @@
+{
+  "ok": true,
+  "read_only": true,
+  "scope": "dialog",
+  "scope_class": "class Ui::BoxLayerWidget",
+  "scope_runtime_id": "test-form",
+  "process_id": 201,
+  "window_handle": 101,
+  "truncated": false,
+  "errors": [],
+  "controls": [
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::BoxLayerWidget",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Window",
+      "name": "",
+      "class_name": "class Ui::GenericBox",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Text",
+      "name": "Novo Contato",
+      "class_name": "class Ui::FlatLabel",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": false
+    },
+    {
+      "type": "Button",
+      "name": "Pronto",
+      "class_name": "class Ui::RoundButton",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Button",
+      "name": "Cancelar",
+      "class_name": "class Ui::RoundButton",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::ScrollArea",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class QWidget",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::OverrideMargins",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::VerticalLayout",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class `anonymous namespace'::Cover",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Edit",
+      "name": "Nome",
+      "class_name": "class Ui::InputField",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Edit",
+      "name": "Sobrenome",
+      "class_name": "class Ui::InputField",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::FixedHeightWidget",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Separator",
+      "name": "",
+      "class_name": "class Ui::BoxContentDivider",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::FixedHeightWidget",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Edit",
+      "name": "Nota",
+      "class_name": "class Ui::InputField",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Button",
+      "name": "",
+      "class_name": "class Ui::EmojiButton",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::DividerLabel",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Text",
+      "name": "O número de telefone ficará visível assim que Test te adicionar como contato.",
+      "class_name": "class Ui::FlatLabel",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": false
+    },
+    {
+      "type": "Button",
+      "name": "Foto de Perfil",
+      "class_name": "class Ui::UserpicButton",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Text",
+      "name": "Test User",
+      "class_name": "class Ui::FlatLabel",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": false
+    },
+    {
+      "type": "Text",
+      "name": "Número oculto",
+      "class_name": "class Ui::FlatLabel",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": false
+    },
+    {
+      "type": "Edit",
+      "name": "Nome",
+      "class_name": "class Ui::InputField::Inner",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Edit",
+      "name": "Sobrenome",
+      "class_name": "class Ui::InputField::Inner",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Edit",
+      "name": "Nota",
+      "class_name": "class Ui::InputField::Inner",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::RpWidget",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Separator",
+      "name": "",
+      "class_name": "class Ui::BoxContentDivider",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Text",
+      "name": "As notas são visíveis só para você.",
+      "class_name": "class Ui::FlatLabel",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": false
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class QWidget",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class QWidget",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class QWidget",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    }
+  ]
+}
