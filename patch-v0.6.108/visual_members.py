@@ -76,7 +76,7 @@ def numeric_word(label):
 
 def member_labels(values, allow_empty=False):
     labels=[numeric_label(value) for value in values]
-    if len(labels)>40 or (not labels and not allow_empty):raise ValueError('每次选择 1–40 个备注')
+    if not labels and not allow_empty:raise ValueError('选人名单不能为空')
     if len({int(label) for label in labels})!=len(labels):raise ValueError('备注编号重复；1 和 001 也不能同时使用')
     return labels
 

@@ -466,6 +466,10 @@ class PinnedContactQueueTests(unittest.TestCase):
         self.added(qid);self.added(qid)
         self.assertEqual(prep.preview(qid)['rows'][0]['numbers'],['10'])
 
+    def test_merged_success_labels_can_exceed_one_addition_batch(self):
+        from visual_members import member_labels
+        self.assertEqual(len(member_labels([str(n) for n in range(1,61)])),60)
+
     def test_discard_clear_running_queue_is_refused(self):
         qid=self.queue.configure(self.entries());self.queue.start(qid)
         before=self.store.rows()
