@@ -6,6 +6,188 @@
 不迁移旧电脑数据库、旧添加任务或旧使用记录。
 你可以把目前正常运行的完整程序文件夹压缩后复制过去。
 
+
+==================================================
+软件下载版本、官方链接及安装指令速查
+==================================================
+
+【1】Windows系统
+推荐：Windows 11，64位Intel/AMD电脑。
+当前程序也适用于Windows 10，但本指南的新系统安装优先Windows 11。
+已经安装合适Windows的电脑直接使用，无需为了助手重新安装系统。
+微软Windows 11官方下载页面：
+https://www.microsoft.com/zh-cn/software-download/windows11
+
+【2】Python
+推荐下载版本：Python 3.13系列最新维护版，Windows x64安装程序。
+当前安装脚本支持范围：Python 3.11～3.14，64位。
+官方Windows下载列表：
+https://www.python.org/downloads/windows/
+
+进入后找到“Python 3.13.x”（x是官网当时的具体补丁号），
+选择该版本的“Download Windows installer (64-bit)”。
+文件名应类似：python-3.13.x-amd64.exe。
+“amd64”表示普通Intel/AMD的64位电脑，两者都适用。
+不要选择32-bit、ARM64、embeddable package或源码包。
+Python补丁版本会持续更新，本文不把过时的小版本固定成下载要求。
+版本号与下载安装文件以官网实际提供的最新3.13维护版本为准。
+
+如果新电脑已有Python 3.12（64位）且能通过本文检查，也可以继续使用。
+Python安装时勾选Add Python to PATH，保留pip、tcl/tk and IDLE及Launcher。
+
+【3】Microsoft Visual C++运行库
+下载版本：Visual C++ v14系列，x64，使用微软官方提供的兼容更新版。
+官方安装文件直达链接：
+https://aka.ms/vs/17/release/vc_redist.x64.exe
+官方版本说明与下载入口：
+https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist
+
+下载的文件名：vc_redist.x64.exe。
+安装程序显示的版本可能随微软发布更新变化。
+普通Intel/AMD的64位Windows选择x64，不选择ARM64。
+双击安装；如已有兼容的较新版本，无需卸载。
+
+【4】Telegram Desktop
+优先使用与你当前正常电脑一致的Telegram版本。
+在旧电脑Telegram的Settings设置页面查看版本号，再决定是否沿用。
+本助手目前只记录了助手版本v0.6.116，不能据此推断你的Telegram版本号。
+
+官方桌面版页面：
+https://desktop.telegram.org/
+官方Windows x64安装版下载入口：
+https://telegram.org/dl/desktop/win64
+官方Windows x64便携版下载入口：
+https://telegram.org/dl/desktop/win64_portable
+
+上面两个直达入口随官方更新提供稳定版，不固定旧版本号。
+多独立账号目录时，可使用Windows x64 Portable便携版。
+下载后完整解压，每个账号放在自己的目录，分别打开Telegram.exe登录。
+如果新机版本与旧机不同，先按后文完成一个账号、人数1的小测试。
+Telegram界面语言设为English，不需要把Windows显示语言改成英文。
+
+【5】PowerShell
+使用Windows自带的“Windows PowerShell 5.1”。
+程序实际调用系统的Windows PowerShell，不要求额外安装PowerShell 7。
+在开始菜单搜索“Windows PowerShell”可以打开。
+下面安装Windows语言组件时要以管理员身份打开；
+其余Python/OCR检查和正式运行一般使用普通用户权限。
+
+【6】OCR依赖版本
+你复制的程序目录中的requirements_ocr.txt目前固定为：
+rapidocr==3.9.2
+onnxruntime==1.30.0
+omegaconf==2.3.0
+
+由SETUP_OCR.bat按这个文件自动下载和安装到本目录的.ocr-env。
+它还会安装所需的其他依赖，不用手动下载每个Python包。
+如果以后requirements_ocr.txt随程序升级变化，以你实际程序文件为准。
+
+--------------------------------------------------
+A. 安装Windows英语基础组件和英文OCR语言
+--------------------------------------------------
+
+适用：Windows 10/11，需要联网。
+操作位置：管理员“Windows PowerShell”。
+
+1. 点击开始菜单，输入Windows PowerShell。
+2. 右键“Windows PowerShell”，选择“以管理员身份运行”。
+3. 出现Windows授权提示时确认。
+4. 先检查组件是否已安装，把下面命令逐行复制进去执行：
+
+Get-WindowsCapability -Online -Name "Language.Basic~~~en-US~0.0.1.0"
+Get-WindowsCapability -Online -Name "Language.OCR~~~en-US~0.0.1.0"
+
+5. 如果两项都显示State : Installed，就直接进入后面的复核步骤。
+6. 如果基础组件未安装，执行：
+
+Add-WindowsCapability -Online -Name "Language.Basic~~~en-US~0.0.1.0"
+
+7. 如果英文OCR未安装，执行：
+
+Add-WindowsCapability -Online -Name "Language.OCR~~~en-US~0.0.1.0"
+
+8. 等待每条命令完成，不要在下载期间关闭窗口。
+9. 安装后再执行前面的两条Get-WindowsCapability命令。
+   应显示State : Installed。
+10. 如果安装输出显示RestartNeeded : True，保存工作并重启电脑。
+可选：用普通Windows PowerShell检查Windows OCR实际可见的语言：
+
+Add-Type -AssemblyName System.Runtime.WindowsRuntime
+[Windows.Media.Ocr.OcrEngine,Windows.Media.Ocr,ContentType=WindowsRuntime] | Out-Null
+[Windows.Media.Ocr.OcrEngine]::AvailableRecognizerLanguages | ForEach-Object { $_.LanguageTag }
+
+安装英文OCR后，应能看到en-US或相应的英文语言标记。
+若输出空列表或加载类型失败，保留错误文字，不把组件安装状态当成实际识别已通过。
+
+11. 这些命令安装语言识别组件，不会自动把Windows显示界面改为英文。
+12. 安装完成后关闭管理员PowerShell。
+    正式运行助手与Telegram时保持相同权限，一般都普通双击启动。
+
+出现以下情况时保留完整错误内容：
+“需要提升权限”：检查是否确实以管理员身份打开。
+下载失败或0x800f开头错误：可能涉及Windows Update、网络或组件来源。
+公司受管理电脑、精简系统或部分特殊版本可能由系统策略限制安装。
+不要因为这些错误直接修改程序逻辑或关闭系统保护，先核对实际错误。
+
+--------------------------------------------------
+B. 核对Python版本、位数和tkinter
+--------------------------------------------------
+
+操作位置：普通“命令提示符cmd”或普通“Windows PowerShell”。
+逐条执行：
+
+py -3 --version
+py -3 -c "import struct, tkinter; print('Python bits:', struct.calcsize('P')*8); print('Tk:', tkinter.TkVersion)"
+
+通过标准：Python版本在3.11～3.14范围内；位数64；tkinter可以导入。
+如果py不可用，但已安装带PATH的Python，可以改用：
+
+python --version
+python -c "import struct, tkinter; print('Python bits:', struct.calcsize('P')*8); print('Tk:', tkinter.TkVersion)"
+
+若py存在，启动脚本会优先使用py -3，所以必须检查这个命令的实际版本。
+
+--------------------------------------------------
+C. 在程序目录安装OCR
+--------------------------------------------------
+
+最简单的方式：打开实际程序目录，双击SETUP_OCR.bat。
+首次安装需要联网，成功后应出现OCR imports OK和“安装成功”。
+
+也可以在普通Windows PowerShell中运行，以下目录只是示例：
+
+Set-Location "D:\PingAnXiLeAssistant"
+.\SETUP_OCR.bat
+
+完成后在同一个普通PowerShell窗口检查：
+
+& ".\.ocr-env\Scripts\python.exe" -c "import rapidocr, onnxruntime, PIL; print('OCR imports OK')"
+
+检查安装的三个主要组件版本：
+
+& ".\.ocr-env\Scripts\python.exe" -c "from importlib.metadata import version; print('rapidocr', version('rapidocr')); print('onnxruntime', version('onnxruntime')); print('omegaconf', version('omegaconf'))"
+
+输出应与requirements_ocr.txt中的版本一致。
+如果安装或加载失败，保留同目录的ocr_setup.log。
+
+--------------------------------------------------
+D. 启动助手
+--------------------------------------------------
+
+在实际程序目录双击START.bat。
+或者在普通Windows PowerShell中执行：
+
+Set-Location "D:\PingAnXiLeAssistant"
+.\START.bat
+
+所有示例路径都要换成你实际解压、包含app.py和START.bat的目录。
+在命令中不要照搬一个电脑上不存在的D盘路径。
+
+说明：本文提供官方发布入口和可复制的检查/安装命令。
+具体最新补丁号、实际下载文件及语言安装结果以新电脑现场显示为准。
+本文未在你的新电脑执行下载或安装。
+
+
 ==================================================
 一、先准备哪些软件和文件
 ==================================================
