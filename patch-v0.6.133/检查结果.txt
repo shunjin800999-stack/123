@@ -1,0 +1,5 @@
+﻿实际运行：/tmp/telegram-ocr-dev/bin/python -m unittest discover -s . -p 'test_*.py' -q
+工作目录：/workspace/TelegramAssistant-v0.6.133-work
+Ran 812 tests in 28.414s
+OK
+没有失败或跳过。Windows图形窗口用模拟检查，未执行实际Telegram输入。
