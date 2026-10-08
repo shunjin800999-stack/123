@@ -1,0 +1,17 @@
+﻿v0.6.134 云端检查结果
+环境：Python3.12；PowerShell7.4.6（Linux）。Windows运行仍沿用原Windows PowerShell入口。
+完整检查命令：python -m unittest discover -s . -p 'test_*.py' -q
+输出如下：
+[0;93m2026-10-08 15:07:09.556483214 [W:onnxruntime:Default, telemetry.cc:800 operator()] Failed to persist telemetry device ID; using an in-memory identifier[m
+/workspace/TelegramAssistant-v0.6.134-work/ocr_worker.py:39: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  pixels=list(crop.getdata());border=[]
+----------------------------------------------------------------------
+Ran 815 tests in 25.322s
+
+OK
+
+PowerShell生产函数模拟：12 page classifications and 13 production wait scenarios passed; ready pages have no fixed delay.
+4 production navigation scenarios passed; an existing profile is reused and Info is invoked at most once.
+18 PowerShell files parsed successfully.
+Python3.10语法检查通过；免激活main入口AST与v133一致。
+本结果不代表云端已执行Windows真实Telegram输入。
