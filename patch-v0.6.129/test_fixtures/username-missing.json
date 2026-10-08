@@ -1,0 +1,69 @@
+{
+  "ok": true,
+  "read_only": true,
+  "scope": "dialog",
+  "scope_class": "class Ui::BoxLayerWidget",
+  "scope_runtime_id": "missing-modal",
+  "process_id": 201,
+  "window_handle": 101,
+  "truncated": false,
+  "errors": [],
+  "controls": [
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::BoxLayerWidget",
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "type": "Window",
+      "name": "",
+      "class_name": "class Ui::GenericBox",
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "type": "Button",
+      "name": "OK",
+      "class_name": "class Ui::RoundButton",
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::ScrollArea",
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class QWidget",
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::OverrideMargins",
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::VerticalLayout",
+      "enabled": true,
+      "visible": true
+    },
+    {
+      "type": "Text",
+      "name": "Não existe conta no Telegram com o nome de usuário @test_user.",
+      "class_name": "class Ui::FlatLabel",
+      "enabled": true,
+      "visible": true
+    }
+  ]
+}
