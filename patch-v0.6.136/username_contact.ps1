@@ -315,7 +315,7 @@ public static class TelegramContactInput {
    # Only navigation is repeated, never Add contact, field input, or Done.
    return
   }
-  throw 'Same username profile did not reopen; no repeated submission.' 
+  throw 'Same username profile did not reopen; no repeated submission.'
  }
  function SavedRetryProfile {
   if (-not $p.retry_unsaved_profile_runtime_id -or [string]$p.retry_expected_number -notmatch '^(0|[1-9][0-9]{0,5})$') { return $false }

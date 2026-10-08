@@ -105,7 +105,7 @@ class PinnedBatchTests(unittest.TestCase):
     def test_legacy_requires_success_event_for_same_item_batch_and_date(self):
         first,_=self.add();self.add()
         self.store.db.execute('UPDATE items SET numbering_global=0 WHERE id=?',(first,));self.store.db.commit()
-        for mutation in ("UPDATE events SET action='uncertain' WHERE action='added'", 
+        for mutation in ("UPDATE events SET action='uncertain' WHERE action='added'",
                          "UPDATE events SET item_id=999 WHERE action='added'",
                          "UPDATE events SET batch_id=NULL WHERE action='added'",
                          "UPDATE events SET time='2000-01-01 00:00:00' WHERE action='added'"):

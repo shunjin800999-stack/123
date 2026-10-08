@@ -323,7 +323,7 @@ class PinnedMemberPlans:
                     if all(states.get(slot,{}).get('plan_id')==plan['plan_id'] and
                            states[slot].get('state') in ('selection_finished','waiting_for_manual_invite','confirmed_invited')
                            for slot in (1,2)):
-                        
+
                         for bid in plan.get('batch_ids',[plan['batch_id']]):
                             self.db.execute("UPDATE batches SET status='selection_done',reason='两群选人任务完成；手动邀请结果不记录' WHERE id=? AND status NOT IN ('completed','selection_done')",(bid,))
         return preserved
