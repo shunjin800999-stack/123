@@ -1,0 +1,25 @@
+平安喜乐助手 v0.6.132——简易准备包检查
+检查日期：2026-10-08
+
+新增15项检查全部通过：
+首次选择后记住授权；原授权文件和激活码保留；授权缺失或变化时停止，不自动建立另一套授权；
+自动选择模板和输出位置；重复制作不覆盖先前安装包；同一动作生成并复制激活码。
+
+原激活与升级28项检查全部通过。
+
+从完整简易ZIP解压进行实际链路检查：
+调用PowerShell/.NET RSA签名，制作完整v132安装包，为两台模拟设备签发和保存激活；
+运行实际app.main入口（模拟窗口），确认重启不重复弹激活窗；
+两台电脑分别建立空业务数据库，一台更改序号不会影响另一台。
+最终安装包仅包含公开校验文件，不含授权签发密钥、旧数据库、名单、使用记录或已激活状态。
+安装包所有文件及OCR模型均通过清单校验；业务文件与原模板相同。
+本机免激活版app.py、pinned_members.py、ocr_worker.py、select_member.ps1与已交付v132补丁相同。
+
+Windows图形窗口输入使用模拟，未在用户的新电脑执行软件安装或实际Telegram操作。
+开发环境复用现有Python及PowerShell，不新增运行依赖或改动现有环境配置。
+
+复现命令（开发环境）：
+PYTHONDONTWRITEBYTECODE=1 XDG_CACHE_HOME=/tmp/telegram-pwsh-cache XDG_CONFIG_HOME=/tmp/telegram-pwsh-config XDG_DATA_HOME=/tmp/telegram-pwsh-data /tmp/telegram-ocr-dev/bin/python -m unittest discover -s release-v0.6.132/tests -p test_simple_setup.py -v
+PYTHONDONTWRITEBYTECODE=1 XDG_CACHE_HOME=/tmp/telegram-pwsh-cache XDG_CONFIG_HOME=/tmp/telegram-pwsh-config XDG_DATA_HOME=/tmp/telegram-pwsh-data /tmp/telegram-ocr-dev/bin/python release-v0.6.132/tests/check_simple_setup_package.py
+开发检查需要现有/tmp/powershell-7.4.6/pwsh；只创建临时测试密钥，检查后自动删除。
+构建：python release-v0.6.132/simple-setup/build_package.py（在仓库内运行）。
