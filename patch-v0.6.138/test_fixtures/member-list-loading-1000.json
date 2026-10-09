@@ -1,0 +1,859 @@
+{
+  "source": "Sanitized geometry, OCR and pre-input layout rejection from the uploaded report; no real input is run.",
+  "number": "1000",
+  "expected_selected": [
+    "995",
+    "996",
+    "997",
+    "998",
+    "999"
+  ],
+  "before": {
+    "scale": 2,
+    "read_only": true,
+    "window_handle": 100,
+    "header_scroll": {
+      "viewport_runtime_id": "test-viewport_runtime_id",
+      "inner": {
+        "left": 748,
+        "width": 364,
+        "top": 266,
+        "height": 84
+      },
+      "max_offset": 0,
+      "inner_runtime_id": "test-inner_runtime_id",
+      "scroll_runtime_id": "test-scroll_runtime_id",
+      "search_value": "1000",
+      "viewport": {
+        "left": 748,
+        "width": 364,
+        "top": 266,
+        "height": 84
+      },
+      "offset": 0,
+      "search_runtime_id": "test-search_runtime_id"
+    },
+    "capture": {
+      "left": 748,
+      "width": 364,
+      "top": 218,
+      "height": 580
+    },
+    "regions": {
+      "list": {
+        "left": 748,
+        "width": 364,
+        "top": 350,
+        "height": 76
+      },
+      "viewport": {
+        "left": 748,
+        "width": 364,
+        "top": 350,
+        "height": 394
+      },
+      "search": {
+        "left": 837,
+        "width": 225,
+        "top": 319,
+        "height": 25
+      },
+      "header": {
+        "left": 748,
+        "width": 364,
+        "top": 266,
+        "height": 84
+      },
+      "header_ocr": {
+        "left": 748.0,
+        "top": 266.0,
+        "width": 364.0,
+        "height": 84.0
+      }
+    },
+    "final_invite_clicked": false,
+    "ok": true,
+    "process_id": 200,
+    "scope": "member_visual",
+    "ocr": {
+      "language": "zh-Hans-CN",
+      "text": "Add Members Cancel Add",
+      "error": "",
+      "words": [
+        {
+          "left": 47,
+          "width": 41,
+          "top": 33,
+          "height": 27,
+          "text": "Ad"
+        },
+        {
+          "left": 91,
+          "width": 17,
+          "top": 33,
+          "height": 27,
+          "text": "d"
+        },
+        {
+          "left": 120,
+          "width": 143,
+          "top": 33,
+          "height": 27,
+          "text": "Members"
+        },
+        {
+          "left": 283,
+          "width": 50,
+          "top": 41,
+          "height": 19,
+          "text": "5311"
+        },
+        {
+          "left": 343,
+          "width": 11,
+          "top": 41,
+          "height": 19,
+          "text": "/"
+        },
+        {
+          "left": 361,
+          "width": 82,
+          "top": 41,
+          "height": 19,
+          "text": "200000"
+        },
+        {
+          "left": 16,
+          "width": 63,
+          "top": 189,
+          "height": 62,
+          "text": "0"
+        },
+        {
+          "left": 92,
+          "width": 42,
+          "top": 211,
+          "height": 19,
+          "text": "999"
+        },
+        {
+          "left": 408,
+          "width": 41,
+          "top": 131,
+          "height": 19,
+          "text": "997"
+        },
+        {
+          "left": 179,
+          "width": 55,
+          "top": 211,
+          "height": 19,
+          "text": "1000"
+        },
+        {
+          "left": 149,
+          "width": 55,
+          "top": 311,
+          "height": 19,
+          "text": "1000"
+        },
+        {
+          "left": 149,
+          "width": 40,
+          "top": 351,
+          "height": 21,
+          "text": "last"
+        },
+        {
+          "left": 197,
+          "width": 53,
+          "top": 357,
+          "height": 15,
+          "text": "seen"
+        },
+        {
+          "left": 258,
+          "width": 13,
+          "top": 353,
+          "height": 19,
+          "text": "7"
+        },
+        {
+          "left": 279,
+          "width": 96,
+          "top": 353,
+          "height": 19,
+          "text": "minutes"
+        },
+        {
+          "left": 382,
+          "width": 43,
+          "top": 357,
+          "height": 21,
+          "text": "ago"
+        },
+        {
+          "left": 463,
+          "width": 87,
+          "top": 1093,
+          "height": 23,
+          "text": "Cancel"
+        },
+        {
+          "left": 566,
+          "width": 41,
+          "top": 131,
+          "height": 19,
+          "text": "998"
+        },
+        {
+          "left": 623,
+          "width": 35,
+          "top": 1093,
+          "height": 23,
+          "text": "Ad"
+        },
+        {
+          "left": 661,
+          "width": 15,
+          "top": 1093,
+          "height": 23,
+          "text": "d"
+        }
+      ],
+      "available": true,
+      "languages": [
+        "zh-Hans-CN"
+      ]
+    },
+    "button_regions": {
+      "add": {
+        "left": 1045,
+        "width": 57,
+        "top": 754,
+        "height": 34
+      },
+      "cancel": {
+        "left": 964,
+        "width": 75,
+        "top": 754,
+        "height": 34
+      }
+    },
+    "dialog_runtime_id": "test-dialog",
+    "search_preparation": {
+      "search_attempted": true,
+      "number": "1000",
+      "value_matches": true
+    },
+    "backup_ocr": {
+      "ok": true,
+      "accepted": [
+        {
+          "text": "995",
+          "score": 1.0,
+          "box": [
+            [
+              85.0,
+              122.0
+            ],
+            [
+              139.0,
+              122.0
+            ],
+            [
+              139.0,
+              157.0
+            ],
+            [
+              85.0,
+              157.0
+            ]
+          ],
+          "pale_gray_border": 1.0,
+          "dark_ink_fraction": 0.05238095238095238
+        },
+        {
+          "text": "996",
+          "score": 0.99999,
+          "box": [
+            [
+              243.0,
+              122.0
+            ],
+            [
+              298.0,
+              122.0
+            ],
+            [
+              298.0,
+              156.0
+            ],
+            [
+              243.0,
+              156.0
+            ]
+          ],
+          "pale_gray_border": 1.0,
+          "dark_ink_fraction": 0.05561497326203209
+        },
+        {
+          "text": "997",
+          "score": 1.0,
+          "box": [
+            [
+              401.0,
+              122.0
+            ],
+            [
+              456.0,
+              122.0
+            ],
+            [
+              456.0,
+              157.0
+            ],
+            [
+              401.0,
+              157.0
+            ]
+          ],
+          "pale_gray_border": 1.0,
+          "dark_ink_fraction": 0.0451948051948052
+        },
+        {
+          "text": "998",
+          "score": 1.0,
+          "box": [
+            [
+              558.0,
+              122.0
+            ],
+            [
+              614.0,
+              122.0
+            ],
+            [
+              614.0,
+              157.0
+            ],
+            [
+              558.0,
+              157.0
+            ]
+          ],
+          "pale_gray_border": 1.0,
+          "dark_ink_fraction": 0.05459183673469388
+        },
+        {
+          "text": "999",
+          "score": 1.0,
+          "box": [
+            [
+              85.0,
+              203.0
+            ],
+            [
+              139.0,
+              203.0
+            ],
+            [
+              139.0,
+              236.0
+            ],
+            [
+              85.0,
+              236.0
+            ]
+          ],
+          "pale_gray_border": 1.0,
+          "dark_ink_fraction": 0.05611672278338945
+        }
+      ],
+      "rejected": [
+        {
+          "text": "×",
+          "score": 0.62948,
+          "box": [
+            [
+              664.0,
+              199.0
+            ],
+            [
+              705.0,
+              199.0
+            ],
+            [
+              705.0,
+              238.0
+            ],
+            [
+              664.0,
+              238.0
+            ]
+          ],
+          "pale_gray_border": 0.0,
+          "dark_ink_fraction": 0.0,
+          "reason": "未确认浅灰标签背景和深色文字，可能为头像"
+        }
+      ],
+      "selected_numbers": [
+        "995",
+        "996",
+        "997",
+        "998",
+        "999"
+      ],
+      "other_header_words": [],
+      "detections": [
+        {
+          "text": "Add Members5311 / 200000",
+          "score": 0.9696,
+          "box": [
+            [
+              42.0,
+              27.0
+            ],
+            [
+              449.0,
+              30.0
+            ],
+            [
+              449.0,
+              66.0
+            ],
+            [
+              41.0,
+              63.0
+            ]
+          ]
+        },
+        {
+          "text": "995",
+          "score": 1.0,
+          "box": [
+            [
+              85.0,
+              122.0
+            ],
+            [
+              139.0,
+              122.0
+            ],
+            [
+              139.0,
+              157.0
+            ],
+            [
+              85.0,
+              157.0
+            ]
+          ]
+        },
+        {
+          "text": "996",
+          "score": 0.99999,
+          "box": [
+            [
+              243.0,
+              122.0
+            ],
+            [
+              298.0,
+              122.0
+            ],
+            [
+              298.0,
+              156.0
+            ],
+            [
+              243.0,
+              156.0
+            ]
+          ]
+        },
+        {
+          "text": "997",
+          "score": 1.0,
+          "box": [
+            [
+              401.0,
+              122.0
+            ],
+            [
+              456.0,
+              122.0
+            ],
+            [
+              456.0,
+              157.0
+            ],
+            [
+              401.0,
+              157.0
+            ]
+          ]
+        },
+        {
+          "text": "998",
+          "score": 1.0,
+          "box": [
+            [
+              558.0,
+              122.0
+            ],
+            [
+              614.0,
+              122.0
+            ],
+            [
+              614.0,
+              157.0
+            ],
+            [
+              558.0,
+              157.0
+            ]
+          ]
+        },
+        {
+          "text": "999",
+          "score": 1.0,
+          "box": [
+            [
+              85.0,
+              203.0
+            ],
+            [
+              139.0,
+              203.0
+            ],
+            [
+              139.0,
+              236.0
+            ],
+            [
+              85.0,
+              236.0
+            ]
+          ]
+        },
+        {
+          "text": "1000",
+          "score": 0.99999,
+          "box": [
+            [
+              173.0,
+              204.0
+            ],
+            [
+              239.0,
+              204.0
+            ],
+            [
+              239.0,
+              236.0
+            ],
+            [
+              173.0,
+              236.0
+            ]
+          ]
+        },
+        {
+          "text": "×",
+          "score": 0.62948,
+          "box": [
+            [
+              664.0,
+              199.0
+            ],
+            [
+              705.0,
+              199.0
+            ],
+            [
+              705.0,
+              238.0
+            ],
+            [
+              664.0,
+              238.0
+            ]
+          ]
+        },
+        {
+          "text": "1000",
+          "score": 0.99999,
+          "box": [
+            [
+              141.0,
+              302.0
+            ],
+            [
+              210.0,
+              302.0
+            ],
+            [
+              210.0,
+              337.0
+            ],
+            [
+              141.0,
+              337.0
+            ]
+          ]
+        },
+        {
+          "text": "last seen 7 minutes ago",
+          "score": 0.98501,
+          "box": [
+            [
+              142.0,
+              345.0
+            ],
+            [
+              429.0,
+              349.0
+            ],
+            [
+              429.0,
+              381.0
+            ],
+            [
+              141.0,
+              377.0
+            ]
+          ]
+        },
+        {
+          "text": "Cancel",
+          "score": 0.99993,
+          "box": [
+            [
+              457.0,
+              1088.0
+            ],
+            [
+              557.0,
+              1088.0
+            ],
+            [
+              557.0,
+              1121.0
+            ],
+            [
+              457.0,
+              1121.0
+            ]
+          ]
+        },
+        {
+          "text": "Add",
+          "score": 0.99996,
+          "box": [
+            [
+              617.0,
+              1087.0
+            ],
+            [
+              683.0,
+              1087.0
+            ],
+            [
+              683.0,
+              1123.0
+            ],
+            [
+              617.0,
+              1123.0
+            ]
+          ]
+        }
+      ],
+      "header_crop_detections": [
+        {
+          "text": "995",
+          "score": 1.0,
+          "box": [
+            [
+              89,
+              127
+            ],
+            [
+              136,
+              127
+            ],
+            [
+              136,
+              154
+            ],
+            [
+              89,
+              154
+            ]
+          ],
+          "padding": 4,
+          "source": "gray_label_ink_crop"
+        },
+        {
+          "text": "999",
+          "score": 1.0,
+          "box": [
+            [
+              89,
+              207
+            ],
+            [
+              136,
+              207
+            ],
+            [
+              136,
+              234
+            ],
+            [
+              89,
+              234
+            ]
+          ],
+          "padding": 4,
+          "source": "gray_label_ink_crop"
+        },
+        {
+          "text": "996",
+          "score": 1.0,
+          "box": [
+            [
+              247,
+              127
+            ],
+            [
+              294,
+              127
+            ],
+            [
+              294,
+              154
+            ],
+            [
+              247,
+              154
+            ]
+          ],
+          "padding": 4,
+          "source": "gray_label_ink_crop"
+        }
+      ],
+      "list_name_reviews": [],
+      "image_sha256": "9a0a7229540a6d1ad3f35bf2e0f78f3177f32f8135ef6dc2b914603df09598a4",
+      "final_invite_clicked": false
+    }
+  },
+  "action_error": {
+    "read_only": false,
+    "click_attempted": false,
+    "region_changes": [
+      {
+        "region": "list",
+        "before": 76,
+        "current": 244,
+        "field": "height"
+      }
+    ],
+    "final_invite_clicked": false,
+    "ok": false,
+    "guard_stage": "layout",
+    "click_sent": false,
+    "error": "List layout changed. No click.",
+    "mode": "click_once",
+    "guard_stable": false,
+    "search_applied": false,
+    "search_attempted": false,
+    "guard_report": {
+      "scale": 2,
+      "read_only": true,
+      "window_handle": 100,
+      "header_scroll": {
+        "viewport_runtime_id": "test-viewport_runtime_id",
+        "inner": {
+          "left": 748,
+          "width": 364,
+          "top": 266,
+          "height": 84
+        },
+        "max_offset": 0,
+        "inner_runtime_id": "test-inner_runtime_id",
+        "scroll_runtime_id": "test-scroll_runtime_id",
+        "search_value": "1000",
+        "viewport": {
+          "left": 748,
+          "width": 364,
+          "top": 266,
+          "height": 84
+        },
+        "offset": 0,
+        "search_runtime_id": "test-search_runtime_id"
+      },
+      "capture": {
+        "left": 748,
+        "width": 364,
+        "top": 218,
+        "height": 580
+      },
+      "regions": {
+        "list": {
+          "left": 748,
+          "width": 364,
+          "top": 350,
+          "height": 244
+        },
+        "viewport": {
+          "left": 748,
+          "width": 364,
+          "top": 350,
+          "height": 394
+        },
+        "search": {
+          "left": 837,
+          "width": 225,
+          "top": 319,
+          "height": 25
+        },
+        "header": {
+          "left": 748,
+          "width": 364,
+          "top": 266,
+          "height": 84
+        }
+      },
+      "final_invite_clicked": false,
+      "ok": true,
+      "process_id": 200,
+      "scope": "member_visual",
+      "ocr": {
+        "language": "",
+        "text": "Add Members Cancel Add",
+        "error": "",
+        "words": [],
+        "available": false,
+        "languages": []
+      },
+      "button_regions": {
+        "add": {
+          "left": 1045,
+          "width": 57,
+          "top": 754,
+          "height": 34
+        },
+        "cancel": {
+          "left": 964,
+          "width": 75,
+          "top": 754,
+          "height": 34
+        }
+      },
+      "dialog_runtime_id": "test-dialog"
+    }
+  }
+}
