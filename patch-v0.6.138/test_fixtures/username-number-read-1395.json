@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "read_only": true,
+  "scope": "profile",
+  "scope_class": "class Info::Profile::Widget",
+  "truncated": false,
+  "errors": [
+    "使用“1”个参数调用“GetFirstChild”时发生异常:“”"
+  ],
+  "scope_runtime_id": "profile-1395",
+  "window_handle": 101,
+  "process_id": 201,
+  "controls": [
+    {
+      "type": "Text",
+      "name": "Mouraa",
+      "class_name": "class Ui::MarqueeLabel",
+      "visible": true
+    }
+  ]
+}

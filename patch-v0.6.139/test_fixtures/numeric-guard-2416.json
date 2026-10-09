@@ -1,0 +1,418 @@
+{
+  "ok": true,
+  "read_only": true,
+  "scope": "member_visual",
+  "final_invite_clicked": false,
+  "capture": {
+    "left": 748,
+    "width": 364,
+    "top": 218,
+    "height": 580
+  },
+  "regions": {
+    "list": {
+      "left": 748,
+      "width": 364,
+      "top": 310,
+      "height": 356
+    },
+    "viewport": {
+      "left": 748,
+      "width": 364,
+      "top": 310,
+      "height": 434
+    },
+    "search": {
+      "left": 794,
+      "width": 268,
+      "top": 279,
+      "height": 25
+    },
+    "header": {
+      "left": 748,
+      "width": 364,
+      "top": 266,
+      "height": 44
+    },
+    "header_ocr": {
+      "left": 748.0,
+      "top": 266.0,
+      "width": 364.0,
+      "height": 44.0
+    }
+  },
+  "scale": 2,
+  "button_regions": {
+    "add": {
+      "left": 1045,
+      "width": 57,
+      "top": 754,
+      "height": 34
+    },
+    "cancel": {
+      "left": 964,
+      "width": 75,
+      "top": 754,
+      "height": 34
+    }
+  },
+  "ocr": {
+    "language": "zh-Hans-CN",
+    "text": "Ad d Members 6253 / 200000 ， 0 2416 2416 last seen 2026 / 8 / 29",
+    "error": "",
+    "words": [
+      {
+        "left": 47,
+        "width": 41,
+        "top": 33,
+        "height": 27,
+        "text": "Ad"
+      },
+      {
+        "left": 91,
+        "width": 17,
+        "top": 33,
+        "height": 27,
+        "text": "d"
+      },
+      {
+        "left": 120,
+        "width": 143,
+        "top": 33,
+        "height": 27,
+        "text": "Members"
+      },
+      {
+        "left": 282,
+        "width": 55,
+        "top": 41,
+        "height": 19,
+        "text": "6253"
+      },
+      {
+        "left": 343,
+        "width": 11,
+        "top": 41,
+        "height": 19,
+        "text": "/"
+      },
+      {
+        "left": 361,
+        "width": 82,
+        "top": 41,
+        "height": 19,
+        "text": "200000"
+      },
+      {
+        "left": 38,
+        "width": 6,
+        "top": 150,
+        "height": 6,
+        "text": "，"
+      },
+      {
+        "left": 43,
+        "width": 23,
+        "top": 127,
+        "height": 24,
+        "text": "0"
+      },
+      {
+        "left": 92,
+        "width": 56,
+        "top": 131,
+        "height": 19,
+        "text": "2416"
+      },
+      {
+        "left": 148,
+        "width": 56,
+        "top": 231,
+        "height": 19,
+        "text": "2416"
+      },
+      {
+        "left": 149,
+        "width": 40,
+        "top": 271,
+        "height": 21,
+        "text": "last"
+      },
+      {
+        "left": 197,
+        "width": 53,
+        "top": 277,
+        "height": 15,
+        "text": "seen"
+      },
+      {
+        "left": 259,
+        "width": 54,
+        "top": 273,
+        "height": 19,
+        "text": "2026"
+      },
+      {
+        "left": 314,
+        "width": 9,
+        "top": 274,
+        "height": 17,
+        "text": "/"
+      },
+      {
+        "left": 325,
+        "width": 11,
+        "top": 273,
+        "height": 19,
+        "text": "8"
+      },
+      {
+        "left": 338,
+        "width": 9,
+        "top": 274,
+        "height": 17,
+        "text": "/"
+      },
+      {
+        "left": 349,
+        "width": 26,
+        "top": 273,
+        "height": 19,
+        "text": "29"
+      }
+    ],
+    "available": true,
+    "languages": [
+      "zh-Hans-CN"
+    ]
+  },
+  "backup_ocr": {
+    "ok": true,
+    "image_sha256": "4f42483402cc1a7e49bc0bf60a1e81ca8f5c4bb1dc3a2af9e061de863618be5b",
+    "final_invite_clicked": false,
+    "accepted": [],
+    "rejected": [],
+    "selected_numbers": [],
+    "other_header_words": [],
+    "target_member_only": true,
+    "target_stage": "before",
+    "detections": [
+      {
+        "text": "2416",
+        "score": 0.99999,
+        "box": [
+          [
+            140.0,
+            223.0
+          ],
+          [
+            210.0,
+            223.0
+          ],
+          [
+            210.0,
+            257.0
+          ],
+          [
+            140.0,
+            257.0
+          ]
+        ]
+      },
+      {
+        "text": "last seen 2026/8/29",
+        "score": 0.99929,
+        "box": [
+          [
+            144.0,
+            269.0
+          ],
+          [
+            378.0,
+            269.0
+          ],
+          [
+            378.0,
+            295.0
+          ],
+          [
+            144.0,
+            295.0
+          ]
+        ]
+      }
+    ],
+    "member_row_scan": {
+      "policy": "first_then_fallback",
+      "number": "2416",
+      "detector_resize": "bounded_target_row",
+      "matched_row": 1,
+      "crop_bounds": [
+        0,
+        184,
+        728,
+        336
+      ],
+      "scans": [
+        {
+          "row": 1,
+          "crop_bounds": [
+            0,
+            184,
+            728,
+            336
+          ],
+          "ocr_bounds": [
+            0,
+            184,
+            728,
+            336
+          ],
+          "detections": [
+            {
+              "text": "2416",
+              "score": 0.99999,
+              "box": [
+                [
+                  140.0,
+                  223.0
+                ],
+                [
+                  210.0,
+                  223.0
+                ],
+                [
+                  210.0,
+                  257.0
+                ],
+                [
+                  140.0,
+                  257.0
+                ]
+              ]
+            },
+            {
+              "text": "last seen 2026/8/29",
+              "score": 0.99929,
+              "box": [
+                [
+                  144.0,
+                  269.0
+                ],
+                [
+                  378.0,
+                  269.0
+                ],
+                [
+                  378.0,
+                  295.0
+                ],
+                [
+                  144.0,
+                  295.0
+                ]
+              ]
+            }
+          ],
+          "analysis": {
+            "number": "2416",
+            "usable": true,
+            "list_matches": 1,
+            "chip_matches": 0,
+            "selected_numbers": [],
+            "ignored_list_fragments": 0,
+            "list_candidates": [
+              {
+                "left": 822.0,
+                "top": 333.5,
+                "width": 28.0,
+                "height": 9.5
+              }
+            ],
+            "other_header_words": [],
+            "list_match_policy": "first_matching_numeric_row",
+            "reason": "仅为文字识别诊断，不代表身份核验或群邀请成功",
+            "header_source": "RapidOCR bound capture",
+            "rapid_list_candidates": [
+              {
+                "left": 818.0,
+                "top": 329.5,
+                "width": 35.0,
+                "height": 17.0
+              }
+            ],
+            "list_source": "Windows OCR + bound RapidOCR status-aligned names",
+            "ignored_later_matches": 0
+          },
+          "matched": true
+        }
+      ]
+    },
+    "list_name_reviews": []
+  },
+  "selection_header_ocr": {
+    "ok": true,
+    "used_for_selection": true,
+    "image_sha256": "4f42483402cc1a7e49bc0bf60a1e81ca8f5c4bb1dc3a2af9e061de863618be5b",
+    "frame": {
+      "window_handle": 100,
+      "process_id": 200,
+      "dialog_runtime_id": "test-2416-dialog",
+      "capture": {
+        "left": 748,
+        "width": 364,
+        "top": 218,
+        "height": 580
+      },
+      "regions": {
+        "list": {
+          "left": 748,
+          "width": 364,
+          "top": 310,
+          "height": 356
+        },
+        "viewport": {
+          "left": 748,
+          "width": 364,
+          "top": 310,
+          "height": 434
+        },
+        "search": {
+          "left": 794,
+          "width": 268,
+          "top": 279,
+          "height": 25
+        },
+        "header": {
+          "left": 748,
+          "width": 364,
+          "top": 266,
+          "height": 44
+        },
+        "header_ocr": {
+          "left": 748.0,
+          "top": 266.0,
+          "width": 364.0,
+          "height": 44.0
+        }
+      },
+      "scale": 2
+    }
+  },
+  "target_only_checkpoint": {
+    "number": "2416",
+    "stage": "before"
+  },
+  "selection_list_policy": "first_matching_numeric_row",
+  "first_row_scan": true,
+  "ocr_scan_bounds": [
+    0,
+    0,
+    728,
+    336
+  ],
+  "member_row_target": "2416",
+  "window_handle": 100,
+  "process_id": 200,
+  "dialog_runtime_id": "test-2416-dialog"
+}

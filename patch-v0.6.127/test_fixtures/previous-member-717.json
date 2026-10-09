@@ -1,0 +1,223 @@
+{
+  "source": "717停止报告的点击前控件几何、Windows OCR与顶部检查点，移除本地路径及账号信息",
+  "expected_selected": [
+    "715",
+    "716"
+  ],
+  "number": "717",
+  "before": {
+    "scope": "member_visual",
+    "ok": true,
+    "read_only": true,
+    "final_invite_clicked": false,
+    "window_handle": 100,
+    "process_id": 200,
+    "dialog_runtime_id": "test-member-dialog",
+    "capture": {
+      "left": 748,
+      "width": 364,
+      "top": 218,
+      "height": 580
+    },
+    "regions": {
+      "list": {
+        "left": 748,
+        "width": 364,
+        "top": 310,
+        "height": 76
+      },
+      "viewport": {
+        "left": 748,
+        "width": 364,
+        "top": 310,
+        "height": 434
+      },
+      "search": {
+        "left": 916,
+        "width": 146,
+        "top": 279,
+        "height": 25
+      },
+      "header": {
+        "left": 748,
+        "width": 364,
+        "top": 266,
+        "height": 44
+      },
+      "header_ocr": {
+        "left": 748.0,
+        "top": 266.0,
+        "width": 364.0,
+        "height": 44.0
+      }
+    },
+    "scale": 2,
+    "ocr": {
+      "language": "zh-Hans-CN",
+      "text": "Ad d Members 5300 / 200000 716 717 717 last seen within a week",
+      "error": "",
+      "words": [
+        {
+          "left": 47,
+          "width": 41,
+          "top": 33,
+          "height": 27,
+          "text": "Ad"
+        },
+        {
+          "left": 91,
+          "width": 17,
+          "top": 33,
+          "height": 27,
+          "text": "d"
+        },
+        {
+          "left": 120,
+          "width": 143,
+          "top": 33,
+          "height": 27,
+          "text": "Members"
+        },
+        {
+          "left": 283,
+          "width": 54,
+          "top": 41,
+          "height": 19,
+          "text": "5300"
+        },
+        {
+          "left": 343,
+          "width": 11,
+          "top": 41,
+          "height": 19,
+          "text": "/"
+        },
+        {
+          "left": 361,
+          "width": 82,
+          "top": 41,
+          "height": 19,
+          "text": "200000"
+        },
+        {
+          "left": 250,
+          "width": 42,
+          "top": 131,
+          "height": 19,
+          "text": "716"
+        },
+        {
+          "left": 147,
+          "width": 43,
+          "top": 231,
+          "height": 19,
+          "text": "717"
+        },
+        {
+          "left": 335,
+          "width": 42,
+          "top": 131,
+          "height": 19,
+          "text": "717"
+        },
+        {
+          "left": 149,
+          "width": 40,
+          "top": 271,
+          "height": 21,
+          "text": "last"
+        },
+        {
+          "left": 197,
+          "width": 53,
+          "top": 277,
+          "height": 15,
+          "text": "seen"
+        },
+        {
+          "left": 258,
+          "width": 72,
+          "top": 272,
+          "height": 20,
+          "text": "within"
+        },
+        {
+          "left": 338,
+          "width": 12,
+          "top": 277,
+          "height": 15,
+          "text": "a"
+        },
+        {
+          "left": 358,
+          "width": 61,
+          "top": 271,
+          "height": 21,
+          "text": "week"
+        }
+      ],
+      "available": true,
+      "languages": [
+        "zh-Hans-CN"
+      ]
+    },
+    "first_row_scan": true,
+    "ocr_scan_bounds": [
+      0,
+      0,
+      728,
+      336
+    ],
+    "header_scroll": {
+      "viewport_runtime_id": "test-viewport_runtime_id",
+      "inner": {
+        "left": 748,
+        "width": 364,
+        "top": 266,
+        "height": 44
+      },
+      "max_offset": 0,
+      "inner_runtime_id": "test-inner_runtime_id",
+      "scroll_runtime_id": "test-scroll_runtime_id",
+      "search_value": "717",
+      "viewport": {
+        "left": 748,
+        "width": 364,
+        "top": 266,
+        "height": 44
+      },
+      "offset": 0,
+      "search_runtime_id": "test-search_runtime_id"
+    },
+    "search_preparation": {
+      "search_attempted": true,
+      "number": "717",
+      "value_matches": true
+    },
+    "visible_header_checkpoint": {
+      "scope": "visible_pair",
+      "ledger": [
+        "715",
+        "716"
+      ],
+      "number": "717",
+      "stage": "before"
+    },
+    "selection_list_policy": "first_matching_numeric_row",
+    "header_page": true,
+    "button_regions": {
+      "add": {
+        "left": 1045,
+        "width": 57,
+        "top": 754,
+        "height": 34
+      },
+      "cancel": {
+        "left": 964,
+        "width": 75,
+        "top": 754,
+        "height": 34
+      }
+    }
+  }
+}

@@ -1,0 +1,2 @@
+Downloaded v132 tool ZIP -> RSA authority -> provision full v132 installer -> issue device code -> activate -> launch original app entry -> empty local DB -> restart without prompt: passed.
+Public key only in final installer; no old user data, activation state or signing key. All installer and OCR model hashes verified. Windows GUI input simulated.

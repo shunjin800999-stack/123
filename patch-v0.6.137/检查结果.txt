@@ -1,0 +1,28 @@
+﻿v0.6.137云端离线检查（Linux Python3.12）
+[0;93m2026-10-08 19:52:48.524563854 [W:onnxruntime:Default, telemetry.cc:800 operator()] Failed to persist telemetry device ID; using an in-memory identifier[m
+/workspace/TelegramAssistant-v0.6.137-work/ocr_worker.py:39: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  pixels=list(crop.getdata());border=[]
+----------------------------------------------------------------------
+Ran 891 tests in 28.403s
+
+OK
+
+静态与保留检查：
+{
+  "python310_syntax_files": 106,
+  "unchanged_powershell_files": 20,
+  "main_noactivation_unchanged": true,
+  "addition_and_v136_features_unchanged": true,
+  "changed_source_files": [
+    "app.py",
+    "controls_probe.py",
+    "member_batch.py",
+    "member_click_completion.py",
+    "pinned_members.py",
+    "test_member_click_completion.py",
+    "test_target_only_members.py",
+    "window_queue.py"
+  ]
+}
+本次1320原报告：目标匹配并点击确认=True；两次顶部识别失败可继续=True。
+未在真实Windows Telegram窗口发送输入。本包不含实际使用记录、数据库或授权文件。

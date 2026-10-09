@@ -1,0 +1,25 @@
+﻿v0.6.136云端检查（Python3.12、PowerShell7.4.6，Linux）
+[0;93m2026-10-08 19:21:44.383891760 [W:onnxruntime:Default, telemetry.cc:800 operator()] Failed to persist telemetry device ID; using an in-memory identifier[m
+/workspace/TelegramAssistant-v0.6.136-work/ocr_worker.py:39: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  pixels=list(crop.getdata());border=[]
+----------------------------------------------------------------------
+Ran 869 tests in 25.488s
+
+OK
+
+最终小改动后相关检查：
+----------------------------------------------------------------------
+Ran 36 tests in 0.283s
+
+OK
+
+49 production numeric guard cases passed; zero allowed and invalid numbers rejected.
+
+8 production numeric-header scenarios passed; unrelated fields and TreeWalker are never read.
+
+12 page classifications and 13 production wait scenarios passed; ready pages have no fixed delay.
+4 production navigation scenarios passed; an existing profile is reused and Info is invoked at most once.
+
+20 PowerShell files parsed
+
+Python3.10语法检查通过；免激活main入口未变。未执行真实Windows Telegram输入或语音。

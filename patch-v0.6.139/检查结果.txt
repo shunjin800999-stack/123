@@ -1,0 +1,56 @@
+﻿v0.6.139云端离线检查（Linux Python3.12、PowerShell7.4.6）
+/workspace/TelegramAssistant-v0.6.139-work/ocr_worker.py:39: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  pixels=list(crop.getdata());border=[]
+----------------------------------------------------------------------
+Ran 901 tests in 26.601s
+
+OK
+
+PowerShell语法检查：
+21 PowerShell files parsed without errors.
+
+静态及功能保留检查：
+{
+  "python310_syntax_files": 109,
+  "powershell_files": 21,
+  "main_noactivation_unchanged": true,
+  "addition_and_post_click_verification_unchanged": true,
+  "changed_source_files": [
+    "app.py",
+    "controls_probe.py",
+    "member_numeric_bounds.py",
+    "ocr_worker.py",
+    "select_member.ps1",
+    "test_member_numeric_bounds.py",
+    "test_member_speed.py",
+    "test_numeric_member_guard.ps1",
+    "test_numeric_name_guard.py",
+    "test_premium_member_star.py",
+    "test_target_only_members.py",
+    "test_fixtures/numeric-guard-2416.json"
+  ],
+  "native_pixel_scenarios": 147,
+  "python_tests": 901,
+  "preserved_files": [
+    "store.py",
+    "contact_open.py",
+    "contact_queue.py",
+    "contact_submit.py",
+    "username_contact.py",
+    "username_number_read.py",
+    "member_click_completion.py",
+    "member_batch.py",
+    "pinned_members.py",
+    "window_queue.py",
+    "visual_members.py",
+    "backup_ocr.py",
+    "native_member_worker.ps1",
+    "native_username_worker.ps1",
+    "submit_contact.ps1",
+    "username_contact.ps1",
+    "task_notifications.py",
+    "screenshot_retention.py",
+    "list_reset.py"
+  ]
+}
+未在真实Windows Telegram窗口发送输入。无使用记录、数据库或授权文件。

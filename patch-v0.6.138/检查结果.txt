@@ -1,0 +1,34 @@
+﻿v0.6.138云端离线检查（Linux Python3.12、PowerShell7.4.6）
+/workspace/TelegramAssistant-v0.6.138-work/ocr_worker.py:39: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  pixels=list(crop.getdata());border=[]
+----------------------------------------------------------------------
+Ran 892 tests in 28.262s
+
+OK
+
+原生像素检查：
+----------------------------------------------------------------------
+Ran 1 test in 1.362s
+
+OK
+
+PowerShell语法检查：
+21 PowerShell files parsed successfully
+
+静态与保留检查：
+{
+  "python310_syntax_files": 107,
+  "powershell_files": 21,
+  "main_noactivation_unchanged": true,
+  "addition_and_post_click_verification_unchanged": true,
+  "changed_source_files": [
+    "app.py",
+    "select_member.ps1",
+    "test_member_speed.py",
+    "test_numeric_member_guard.ps1",
+    "test_numeric_name_guard.py",
+    "test_pinned_batch.py"
+  ],
+  "native_pixel_scenarios": 121
+}
+未在真实Windows Telegram窗口发送输入。无使用记录、数据库或授权文件。

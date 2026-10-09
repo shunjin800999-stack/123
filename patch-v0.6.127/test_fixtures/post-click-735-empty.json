@@ -1,0 +1,373 @@
+{
+  "description": "Sanitized v124 account 15/group 1/735 report. Both post-click OCR sources missed the chip; PNG unavailable, tests simulate captures and OCR outputs.",
+  "before": {
+    "ok": true,
+    "read_only": true,
+    "scope": "member_visual",
+    "first_row_scan": true,
+    "scale": 2,
+    "capture": {
+      "left": 748,
+      "width": 364,
+      "top": 218,
+      "height": 580
+    },
+    "regions": {
+      "list": {
+        "left": 748,
+        "width": 364,
+        "top": 310,
+        "height": 76
+      },
+      "viewport": {
+        "left": 748,
+        "width": 364,
+        "top": 310,
+        "height": 434
+      },
+      "search": {
+        "left": 794,
+        "width": 268,
+        "top": 279,
+        "height": 25
+      },
+      "header": {
+        "left": 748,
+        "width": 364,
+        "top": 266,
+        "height": 44
+      },
+      "header_ocr": {
+        "left": 748.0,
+        "top": 266.0,
+        "width": 364.0,
+        "height": 44.0
+      }
+    },
+    "ocr": {
+      "language": "zh-Hans-CN",
+      "text": "Ad d Members 52g2 / 200000 阳 5 P 735 last seen recently",
+      "error": "",
+      "words": [
+        {
+          "left": 47,
+          "width": 41,
+          "top": 33,
+          "height": 27,
+          "text": "Ad"
+        },
+        {
+          "left": 91,
+          "width": 17,
+          "top": 33,
+          "height": 27,
+          "text": "d"
+        },
+        {
+          "left": 120,
+          "width": 143,
+          "top": 33,
+          "height": 27,
+          "text": "Members"
+        },
+        {
+          "left": 283,
+          "width": 54,
+          "top": 41,
+          "height": 19,
+          "text": "52g2"
+        },
+        {
+          "left": 343,
+          "width": 11,
+          "top": 41,
+          "height": 19,
+          "text": "/"
+        },
+        {
+          "left": 361,
+          "width": 82,
+          "top": 41,
+          "height": 19,
+          "text": "200000"
+        },
+        {
+          "left": 91,
+          "width": 28,
+          "top": 121,
+          "height": 37,
+          "text": "阳"
+        },
+        {
+          "left": 120,
+          "width": 13,
+          "top": 131,
+          "height": 19,
+          "text": "5"
+        },
+        {
+          "left": 38,
+          "width": 28,
+          "top": 127,
+          "height": 29,
+          "text": "P"
+        },
+        {
+          "left": 147,
+          "width": 43,
+          "top": 231,
+          "height": 19,
+          "text": "735"
+        },
+        {
+          "left": 149,
+          "width": 40,
+          "top": 271,
+          "height": 21,
+          "text": "last"
+        },
+        {
+          "left": 197,
+          "width": 53,
+          "top": 277,
+          "height": 15,
+          "text": "seen"
+        },
+        {
+          "left": 259,
+          "width": 95,
+          "top": 271,
+          "height": 27,
+          "text": "recently"
+        }
+      ],
+      "available": true,
+      "languages": [
+        "zh-Hans-CN"
+      ]
+    },
+    "ocr_scan_bounds": [
+      0,
+      0,
+      728,
+      336
+    ],
+    "button_regions": {
+      "add": {
+        "left": 1045,
+        "width": 57,
+        "top": 754,
+        "height": 34
+      },
+      "cancel": {
+        "left": 964,
+        "width": 75,
+        "top": 754,
+        "height": 34
+      }
+    },
+    "header_scroll": {
+      "viewport_runtime_id": "test-viewport_runtime_id",
+      "inner": {
+        "left": 748,
+        "width": 364,
+        "top": 266,
+        "height": 44
+      },
+      "max_offset": 0,
+      "inner_runtime_id": "test-inner_runtime_id",
+      "scroll_runtime_id": "test-scroll_runtime_id",
+      "search_value": "735",
+      "viewport": {
+        "left": 748,
+        "width": 364,
+        "top": 266,
+        "height": 44
+      },
+      "offset": 0,
+      "search_runtime_id": "test-search_runtime_id"
+    },
+    "search_preparation": {
+      "search_attempted": true,
+      "number": "735",
+      "value_matches": true
+    },
+    "final_invite_clicked": false,
+    "window_handle": 100,
+    "process_id": 200,
+    "dialog_runtime_id": "test-dialog"
+  },
+  "after": {
+    "ok": true,
+    "read_only": true,
+    "scope": "member_visual",
+    "first_row_scan": true,
+    "header_scan_only": true,
+    "scale": 2,
+    "capture": {
+      "left": 748,
+      "width": 364,
+      "top": 218,
+      "height": 580
+    },
+    "regions": {
+      "list": {
+        "left": 748,
+        "width": 364,
+        "top": 310,
+        "height": 1140
+      },
+      "viewport": {
+        "left": 748,
+        "width": 364,
+        "top": 310,
+        "height": 434
+      },
+      "search": {
+        "left": 837,
+        "width": 265,
+        "top": 279,
+        "height": 25
+      },
+      "header": {
+        "left": 748,
+        "width": 364,
+        "top": 266,
+        "height": 44
+      },
+      "header_ocr": {
+        "left": 748.0,
+        "top": 266.0,
+        "width": 364.0,
+        "height": 44.0
+      }
+    },
+    "ocr": {
+      "language": "zh-Hans-CN",
+      "text": "Ad d Members 52g3 / 200000",
+      "error": "",
+      "words": [
+        {
+          "left": 47,
+          "width": 41,
+          "top": 33,
+          "height": 27,
+          "text": "Ad"
+        },
+        {
+          "left": 91,
+          "width": 17,
+          "top": 33,
+          "height": 27,
+          "text": "d"
+        },
+        {
+          "left": 120,
+          "width": 143,
+          "top": 33,
+          "height": 27,
+          "text": "Members"
+        },
+        {
+          "left": 283,
+          "width": 54,
+          "top": 41,
+          "height": 19,
+          "text": "52g3"
+        },
+        {
+          "left": 343,
+          "width": 11,
+          "top": 41,
+          "height": 19,
+          "text": "/"
+        },
+        {
+          "left": 361,
+          "width": 82,
+          "top": 41,
+          "height": 19,
+          "text": "200000"
+        }
+      ],
+      "available": true,
+      "languages": [
+        "zh-Hans-CN"
+      ]
+    },
+    "ocr_scan_bounds": [
+      0,
+      0,
+      728,
+      184
+    ],
+    "button_regions": {
+      "add": {
+        "left": 1045,
+        "width": 57,
+        "top": 754,
+        "height": 34
+      },
+      "cancel": {
+        "left": 964,
+        "width": 75,
+        "top": 754,
+        "height": 34
+      }
+    },
+    "header_scroll": {
+      "viewport_runtime_id": "test-viewport_runtime_id",
+      "inner": {
+        "left": 748,
+        "width": 364,
+        "top": 266,
+        "height": 44
+      },
+      "max_offset": 0,
+      "inner_runtime_id": "test-inner_runtime_id",
+      "scroll_runtime_id": "test-scroll_runtime_id",
+      "search_value": "",
+      "viewport": {
+        "left": 748,
+        "width": 364,
+        "top": 266,
+        "height": 44
+      },
+      "offset": 0,
+      "search_runtime_id": "test-search_runtime_id"
+    },
+    "final_invite_clicked": false,
+    "window_handle": 100,
+    "process_id": 200,
+    "dialog_runtime_id": "test-dialog"
+  },
+  "reported_after_ocr": {
+    "selected_numbers": [],
+    "accepted": [],
+    "rejected": [],
+    "detections": [],
+    "header_crop_detections": [],
+    "inference_seconds": 2.856,
+    "new_member_retry": {
+      "scope": "new_member_native_crop_retry",
+      "number": "735",
+      "max_retries": 1,
+      "first": {
+        "selected_numbers": [],
+        "other_header_words": [],
+        "accepted": [],
+        "rejected": [],
+        "used_for_selection": false,
+        "selection_verified": false,
+        "final_invite_clicked": false,
+        "reason": "只读备用图像证据；顶部核对由调用方绑定截图后判定，不代表身份核验或邀请成功",
+        "detections": [],
+        "header_crop_detections": [],
+        "ok": false,
+        "error": "本次新增编号未完整可见，停止，不重复点击"
+      },
+      "verified": false,
+      "error": "新增备注的Windows顶部数字位置不唯一或不可见"
+    }
+  }
+}

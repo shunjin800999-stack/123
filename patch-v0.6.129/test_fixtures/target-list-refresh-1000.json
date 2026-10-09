@@ -1,0 +1,1262 @@
+{
+  "source": "Latest account28 stop1000 report; sanitized actual native geometry and OCR outputs. Initial76-height frame reconstructed from guard metadata; PNGs are reproduced in tests.",
+  "number": "1000",
+  "expected_selected": [
+    "995",
+    "996",
+    "997",
+    "998",
+    "999"
+  ],
+  "initial": {
+    "ok": true,
+    "read_only": true,
+    "scope": "member_visual",
+    "window_handle": 100,
+    "process_id": 200,
+    "dialog_runtime_id": "42,100,4,-7000",
+    "capture": {
+      "left": 748,
+      "width": 364,
+      "top": 218,
+      "height": 580
+    },
+    "regions": {
+      "list": {
+        "left": 748,
+        "width": 364,
+        "top": 350,
+        "height": 76
+      },
+      "viewport": {
+        "left": 748,
+        "width": 364,
+        "top": 350,
+        "height": 394
+      },
+      "search": {
+        "left": 837,
+        "width": 225,
+        "top": 319,
+        "height": 25
+      },
+      "header": {
+        "left": 748,
+        "width": 364,
+        "top": 266,
+        "height": 84
+      },
+      "header_ocr": {
+        "left": 748.0,
+        "top": 266.0,
+        "width": 364.0,
+        "height": 84.0
+      }
+    },
+    "ocr": {
+      "language": "zh-Hans-CN",
+      "text": "Ad d Members 52g6 / 200000 997 999 卜 “ 1000 last seen 1 hour ago 998",
+      "error": "",
+      "words": [
+        {
+          "left": 47,
+          "width": 41,
+          "top": 33,
+          "height": 27,
+          "text": "Ad"
+        },
+        {
+          "left": 91,
+          "width": 17,
+          "top": 33,
+          "height": 27,
+          "text": "d"
+        },
+        {
+          "left": 120,
+          "width": 143,
+          "top": 33,
+          "height": 27,
+          "text": "Members"
+        },
+        {
+          "left": 283,
+          "width": 54,
+          "top": 41,
+          "height": 19,
+          "text": "52g6"
+        },
+        {
+          "left": 343,
+          "width": 11,
+          "top": 41,
+          "height": 19,
+          "text": "/"
+        },
+        {
+          "left": 361,
+          "width": 82,
+          "top": 41,
+          "height": 19,
+          "text": "200000"
+        },
+        {
+          "left": 408,
+          "width": 41,
+          "top": 131,
+          "height": 19,
+          "text": "997"
+        },
+        {
+          "left": 92,
+          "width": 42,
+          "top": 211,
+          "height": 19,
+          "text": "999"
+        },
+        {
+          "left": 177,
+          "width": 10,
+          "top": 201,
+          "height": 37,
+          "text": "卜"
+        },
+        {
+          "left": 192,
+          "width": 42,
+          "top": 211,
+          "height": 19,
+          "text": "“"
+        },
+        {
+          "left": 149,
+          "width": 55,
+          "top": 311,
+          "height": 19,
+          "text": "1000"
+        },
+        {
+          "left": 149,
+          "width": 40,
+          "top": 351,
+          "height": 21,
+          "text": "last"
+        },
+        {
+          "left": 197,
+          "width": 53,
+          "top": 357,
+          "height": 15,
+          "text": "seen"
+        },
+        {
+          "left": 260,
+          "width": 7,
+          "top": 353,
+          "height": 18,
+          "text": "1"
+        },
+        {
+          "left": 279,
+          "width": 57,
+          "top": 351,
+          "height": 21,
+          "text": "hour"
+        },
+        {
+          "left": 342,
+          "width": 43,
+          "top": 357,
+          "height": 21,
+          "text": "ago"
+        },
+        {
+          "left": 566,
+          "width": 41,
+          "top": 131,
+          "height": 19,
+          "text": "998"
+        }
+      ],
+      "available": true,
+      "languages": [
+        "zh-Hans-CN"
+      ]
+    },
+    "ocr_scan_bounds": [
+      0,
+      0,
+      728,
+      416
+    ],
+    "scale": 2,
+    "first_row_scan": true,
+    "header_scroll": {
+      "viewport_runtime_id": "42,100,4,viewport_runtime_id",
+      "inner": {
+        "left": 748,
+        "width": 364,
+        "top": 266,
+        "height": 84
+      },
+      "max_offset": 0,
+      "inner_runtime_id": "42,100,4,inner_runtime_id",
+      "scroll_runtime_id": "42,100,4,scroll_runtime_id",
+      "search_value": "1000",
+      "viewport": {
+        "left": 748,
+        "width": 364,
+        "top": 266,
+        "height": 84
+      },
+      "offset": 0,
+      "search_runtime_id": "42,100,4,search_runtime_id"
+    },
+    "button_regions": {
+      "add": {
+        "left": 1045,
+        "width": 57,
+        "top": 754,
+        "height": 34
+      },
+      "cancel": {
+        "left": 964,
+        "width": 75,
+        "top": 754,
+        "height": 34
+      }
+    },
+    "selection_list_policy": "first_matching_numeric_row",
+    "header_page": true,
+    "progressive_member_ocr": true,
+    "member_row_target": "1000",
+    "target_only_checkpoint": {
+      "number": "1000",
+      "stage": "before"
+    },
+    "backup_ocr": {
+      "selected_numbers": [],
+      "other_header_words": [],
+      "accepted": [],
+      "rejected": [],
+      "used_for_selection": false,
+      "selection_verified": false,
+      "final_invite_clicked": false,
+      "reason": "只读备用图像证据；顶部核对由调用方绑定截图后判定，不代表身份核验或邀请成功",
+      "target_member_only": true,
+      "target_stage": "before",
+      "ok": true,
+      "engine": "RapidOCR CPU",
+      "engine_version": "3.9.2",
+      "runtime_version": "1.30.0",
+      "image_sha256": "7eb2a4649f0f88573d2d6544b4cc785f15fc7531043c6c0433f389105ee7e8bf",
+      "detections": [
+        {
+          "text": "1000",
+          "score": 0.99999,
+          "box": [
+            [
+              144.0,
+              303.0
+            ],
+            [
+              209.0,
+              303.0
+            ],
+            [
+              209.0,
+              336.0
+            ],
+            [
+              144.0,
+              336.0
+            ]
+          ]
+        },
+        {
+          "text": "1",
+          "score": 0.99955,
+          "box": [
+            [
+              62.0,
+              325.0
+            ],
+            [
+              81.0,
+              325.0
+            ],
+            [
+              81.0,
+              355.0
+            ],
+            [
+              62.0,
+              355.0
+            ]
+          ]
+        },
+        {
+          "text": "last seen 1 hour ago",
+          "score": 0.99953,
+          "box": [
+            [
+              140.0,
+              341.0
+            ],
+            [
+              392.0,
+              347.0
+            ],
+            [
+              391.0,
+              385.0
+            ],
+            [
+              140.0,
+              379.0
+            ]
+          ]
+        }
+      ],
+      "header_crop_detections": [],
+      "list_name_reviews": [],
+      "inference_seconds": 3.416,
+      "header_scan_only": false,
+      "member_row_scan": {
+        "policy": "first_then_fallback",
+        "number": "1000",
+        "matched_row": 1,
+        "crop_bounds": [
+          0,
+          264,
+          728,
+          416
+        ],
+        "scans": [
+          {
+            "row": 1,
+            "crop_bounds": [
+              0,
+              264,
+              728,
+              416
+            ],
+            "ocr_bounds": [
+              0,
+              264,
+              728,
+              416
+            ],
+            "detections": [
+              {
+                "text": "1000",
+                "score": 0.99999,
+                "box": [
+                  [
+                    144.0,
+                    303.0
+                  ],
+                  [
+                    209.0,
+                    303.0
+                  ],
+                  [
+                    209.0,
+                    336.0
+                  ],
+                  [
+                    144.0,
+                    336.0
+                  ]
+                ]
+              },
+              {
+                "text": "1",
+                "score": 0.99955,
+                "box": [
+                  [
+                    62.0,
+                    325.0
+                  ],
+                  [
+                    81.0,
+                    325.0
+                  ],
+                  [
+                    81.0,
+                    355.0
+                  ],
+                  [
+                    62.0,
+                    355.0
+                  ]
+                ]
+              },
+              {
+                "text": "last seen 1 hour ago",
+                "score": 0.99953,
+                "box": [
+                  [
+                    140.0,
+                    341.0
+                  ],
+                  [
+                    392.0,
+                    347.0
+                  ],
+                  [
+                    391.0,
+                    385.0
+                  ],
+                  [
+                    140.0,
+                    379.0
+                  ]
+                ]
+              }
+            ],
+            "analysis": {
+              "number": "1000",
+              "usable": true,
+              "list_matches": 1,
+              "chip_matches": 0,
+              "selected_numbers": [],
+              "ignored_list_fragments": 0,
+              "list_candidates": [
+                {
+                  "left": 822.5,
+                  "top": 373.5,
+                  "width": 27.5,
+                  "height": 9.5
+                }
+              ],
+              "other_header_words": [],
+              "list_match_policy": "first_matching_numeric_row",
+              "reason": "仅为文字识别诊断，不代表身份核验或群邀请成功",
+              "header_source": "RapidOCR bound capture",
+              "rapid_list_candidates": [
+                {
+                  "left": 820.0,
+                  "top": 369.5,
+                  "width": 32.5,
+                  "height": 16.5
+                }
+              ],
+              "list_source": "Windows OCR + bound RapidOCR status-aligned names",
+              "ignored_later_matches": 0
+            },
+            "matched": true
+          }
+        ]
+      }
+    },
+    "final_invite_clicked": false,
+    "image_path": "redacted.png",
+    "search_preparation": {
+      "number": "1000",
+      "search_attempted": true,
+      "value_matches": true
+    }
+  },
+  "refresh": {
+    "ok": true,
+    "read_only": true,
+    "scope": "member_visual",
+    "window_handle": 100,
+    "process_id": 200,
+    "dialog_runtime_id": "42,100,4,-7000",
+    "capture": {
+      "left": 748,
+      "width": 364,
+      "top": 218,
+      "height": 580
+    },
+    "regions": {
+      "list": {
+        "left": 748,
+        "width": 364,
+        "top": 350,
+        "height": 244
+      },
+      "viewport": {
+        "left": 748,
+        "width": 364,
+        "top": 350,
+        "height": 394
+      },
+      "search": {
+        "left": 837,
+        "width": 225,
+        "top": 319,
+        "height": 25
+      },
+      "header": {
+        "left": 748,
+        "width": 364,
+        "top": 266,
+        "height": 84
+      },
+      "header_ocr": {
+        "left": 748.0,
+        "top": 266.0,
+        "width": 364.0,
+        "height": 84.0
+      }
+    },
+    "ocr": {
+      "language": "zh-Hans-CN",
+      "text": "Ad d Members 52g6 / 200000 997 999 卜 “ 1000 last seen 1 hour ago 998",
+      "error": "",
+      "words": [
+        {
+          "left": 47,
+          "width": 41,
+          "top": 33,
+          "height": 27,
+          "text": "Ad"
+        },
+        {
+          "left": 91,
+          "width": 17,
+          "top": 33,
+          "height": 27,
+          "text": "d"
+        },
+        {
+          "left": 120,
+          "width": 143,
+          "top": 33,
+          "height": 27,
+          "text": "Members"
+        },
+        {
+          "left": 283,
+          "width": 54,
+          "top": 41,
+          "height": 19,
+          "text": "52g6"
+        },
+        {
+          "left": 343,
+          "width": 11,
+          "top": 41,
+          "height": 19,
+          "text": "/"
+        },
+        {
+          "left": 361,
+          "width": 82,
+          "top": 41,
+          "height": 19,
+          "text": "200000"
+        },
+        {
+          "left": 408,
+          "width": 41,
+          "top": 131,
+          "height": 19,
+          "text": "997"
+        },
+        {
+          "left": 92,
+          "width": 42,
+          "top": 211,
+          "height": 19,
+          "text": "999"
+        },
+        {
+          "left": 177,
+          "width": 10,
+          "top": 201,
+          "height": 37,
+          "text": "卜"
+        },
+        {
+          "left": 192,
+          "width": 42,
+          "top": 211,
+          "height": 19,
+          "text": "“"
+        },
+        {
+          "left": 149,
+          "width": 55,
+          "top": 311,
+          "height": 19,
+          "text": "1000"
+        },
+        {
+          "left": 149,
+          "width": 40,
+          "top": 351,
+          "height": 21,
+          "text": "last"
+        },
+        {
+          "left": 197,
+          "width": 53,
+          "top": 357,
+          "height": 15,
+          "text": "seen"
+        },
+        {
+          "left": 260,
+          "width": 7,
+          "top": 353,
+          "height": 18,
+          "text": "1"
+        },
+        {
+          "left": 279,
+          "width": 57,
+          "top": 351,
+          "height": 21,
+          "text": "hour"
+        },
+        {
+          "left": 342,
+          "width": 43,
+          "top": 357,
+          "height": 21,
+          "text": "ago"
+        },
+        {
+          "left": 566,
+          "width": 41,
+          "top": 131,
+          "height": 19,
+          "text": "998"
+        }
+      ],
+      "available": true,
+      "languages": [
+        "zh-Hans-CN"
+      ]
+    },
+    "ocr_scan_bounds": [
+      0,
+      0,
+      728,
+      416
+    ],
+    "scale": 2,
+    "first_row_scan": true,
+    "header_scroll": {
+      "viewport_runtime_id": "42,100,4,viewport_runtime_id",
+      "inner": {
+        "left": 748,
+        "width": 364,
+        "top": 266,
+        "height": 84
+      },
+      "max_offset": 0,
+      "inner_runtime_id": "42,100,4,inner_runtime_id",
+      "scroll_runtime_id": "42,100,4,scroll_runtime_id",
+      "search_value": "1000",
+      "viewport": {
+        "left": 748,
+        "width": 364,
+        "top": 266,
+        "height": 84
+      },
+      "offset": 0,
+      "search_runtime_id": "42,100,4,search_runtime_id"
+    },
+    "button_regions": {
+      "add": {
+        "left": 1045,
+        "width": 57,
+        "top": 754,
+        "height": 34
+      },
+      "cancel": {
+        "left": 964,
+        "width": 75,
+        "top": 754,
+        "height": 34
+      }
+    },
+    "selection_list_policy": "first_matching_numeric_row",
+    "header_page": true,
+    "progressive_member_ocr": true,
+    "member_row_target": "1000",
+    "target_only_checkpoint": {
+      "number": "1000",
+      "stage": "before"
+    },
+    "backup_ocr": {
+      "selected_numbers": [],
+      "other_header_words": [],
+      "accepted": [],
+      "rejected": [],
+      "used_for_selection": false,
+      "selection_verified": false,
+      "final_invite_clicked": false,
+      "reason": "只读备用图像证据；顶部核对由调用方绑定截图后判定，不代表身份核验或邀请成功",
+      "target_member_only": true,
+      "target_stage": "before",
+      "ok": true,
+      "engine": "RapidOCR CPU",
+      "engine_version": "3.9.2",
+      "runtime_version": "1.30.0",
+      "image_sha256": "7eb2a4649f0f88573d2d6544b4cc785f15fc7531043c6c0433f389105ee7e8bf",
+      "detections": [
+        {
+          "text": "1000",
+          "score": 0.99999,
+          "box": [
+            [
+              144.0,
+              303.0
+            ],
+            [
+              209.0,
+              303.0
+            ],
+            [
+              209.0,
+              336.0
+            ],
+            [
+              144.0,
+              336.0
+            ]
+          ]
+        },
+        {
+          "text": "1",
+          "score": 0.99955,
+          "box": [
+            [
+              62.0,
+              325.0
+            ],
+            [
+              81.0,
+              325.0
+            ],
+            [
+              81.0,
+              355.0
+            ],
+            [
+              62.0,
+              355.0
+            ]
+          ]
+        },
+        {
+          "text": "last seen 1 hour ago",
+          "score": 0.99953,
+          "box": [
+            [
+              140.0,
+              341.0
+            ],
+            [
+              392.0,
+              347.0
+            ],
+            [
+              391.0,
+              385.0
+            ],
+            [
+              140.0,
+              379.0
+            ]
+          ]
+        }
+      ],
+      "header_crop_detections": [],
+      "list_name_reviews": [],
+      "inference_seconds": 3.416,
+      "header_scan_only": false,
+      "member_row_scan": {
+        "policy": "first_then_fallback",
+        "number": "1000",
+        "matched_row": 1,
+        "crop_bounds": [
+          0,
+          264,
+          728,
+          416
+        ],
+        "scans": [
+          {
+            "row": 1,
+            "crop_bounds": [
+              0,
+              264,
+              728,
+              416
+            ],
+            "ocr_bounds": [
+              0,
+              264,
+              728,
+              416
+            ],
+            "detections": [
+              {
+                "text": "1000",
+                "score": 0.99999,
+                "box": [
+                  [
+                    144.0,
+                    303.0
+                  ],
+                  [
+                    209.0,
+                    303.0
+                  ],
+                  [
+                    209.0,
+                    336.0
+                  ],
+                  [
+                    144.0,
+                    336.0
+                  ]
+                ]
+              },
+              {
+                "text": "1",
+                "score": 0.99955,
+                "box": [
+                  [
+                    62.0,
+                    325.0
+                  ],
+                  [
+                    81.0,
+                    325.0
+                  ],
+                  [
+                    81.0,
+                    355.0
+                  ],
+                  [
+                    62.0,
+                    355.0
+                  ]
+                ]
+              },
+              {
+                "text": "last seen 1 hour ago",
+                "score": 0.99953,
+                "box": [
+                  [
+                    140.0,
+                    341.0
+                  ],
+                  [
+                    392.0,
+                    347.0
+                  ],
+                  [
+                    391.0,
+                    385.0
+                  ],
+                  [
+                    140.0,
+                    379.0
+                  ]
+                ]
+              }
+            ],
+            "analysis": {
+              "number": "1000",
+              "usable": true,
+              "list_matches": 1,
+              "chip_matches": 0,
+              "selected_numbers": [],
+              "ignored_list_fragments": 0,
+              "list_candidates": [
+                {
+                  "left": 822.5,
+                  "top": 373.5,
+                  "width": 27.5,
+                  "height": 9.5
+                }
+              ],
+              "other_header_words": [],
+              "list_match_policy": "first_matching_numeric_row",
+              "reason": "仅为文字识别诊断，不代表身份核验或群邀请成功",
+              "header_source": "RapidOCR bound capture",
+              "rapid_list_candidates": [
+                {
+                  "left": 820.0,
+                  "top": 369.5,
+                  "width": 32.5,
+                  "height": 16.5
+                }
+              ],
+              "list_source": "Windows OCR + bound RapidOCR status-aligned names",
+              "ignored_later_matches": 0
+            },
+            "matched": true
+          }
+        ]
+      }
+    },
+    "final_invite_clicked": false,
+    "image_path": "redacted.png"
+  },
+  "after": {
+    "ok": true,
+    "read_only": true,
+    "scope": "member_visual",
+    "window_handle": 100,
+    "process_id": 200,
+    "dialog_runtime_id": "42,100,4,-7000",
+    "capture": {
+      "left": 748,
+      "width": 364,
+      "top": 218,
+      "height": 580
+    },
+    "regions": {
+      "list": {
+        "left": 748,
+        "width": 364,
+        "top": 350,
+        "height": 1252
+      },
+      "viewport": {
+        "left": 748,
+        "width": 364,
+        "top": 350,
+        "height": 394
+      },
+      "search": {
+        "left": 923,
+        "width": 179,
+        "top": 319,
+        "height": 25
+      },
+      "header": {
+        "left": 748,
+        "width": 364,
+        "top": 266,
+        "height": 84
+      },
+      "header_ocr": {
+        "left": 748.0,
+        "top": 266.0,
+        "width": 364.0,
+        "height": 84.0
+      }
+    },
+    "ocr": {
+      "language": "zh-Hans-CN",
+      "text": "Ad d Members 52g7 / 200000 997 1000 998",
+      "error": "",
+      "words": [
+        {
+          "left": 47,
+          "width": 41,
+          "top": 33,
+          "height": 27,
+          "text": "Ad"
+        },
+        {
+          "left": 91,
+          "width": 17,
+          "top": 33,
+          "height": 27,
+          "text": "d"
+        },
+        {
+          "left": 120,
+          "width": 143,
+          "top": 33,
+          "height": 27,
+          "text": "Members"
+        },
+        {
+          "left": 283,
+          "width": 54,
+          "top": 41,
+          "height": 19,
+          "text": "52g7"
+        },
+        {
+          "left": 343,
+          "width": 11,
+          "top": 41,
+          "height": 19,
+          "text": "/"
+        },
+        {
+          "left": 361,
+          "width": 82,
+          "top": 41,
+          "height": 19,
+          "text": "200000"
+        },
+        {
+          "left": 408,
+          "width": 41,
+          "top": 131,
+          "height": 19,
+          "text": "997"
+        },
+        {
+          "left": 251,
+          "width": 55,
+          "top": 211,
+          "height": 19,
+          "text": "1000"
+        },
+        {
+          "left": 566,
+          "width": 41,
+          "top": 131,
+          "height": 19,
+          "text": "998"
+        }
+      ],
+      "available": true,
+      "languages": [
+        "zh-Hans-CN"
+      ]
+    },
+    "ocr_scan_bounds": [
+      0,
+      0,
+      728,
+      264
+    ],
+    "scale": 2,
+    "first_row_scan": true,
+    "header_scan_only": true,
+    "header_scroll": {
+      "viewport_runtime_id": "42,100,4,viewport_runtime_id",
+      "inner": {
+        "left": 748,
+        "width": 364,
+        "top": 266,
+        "height": 84
+      },
+      "max_offset": 0,
+      "inner_runtime_id": "42,100,4,inner_runtime_id",
+      "scroll_runtime_id": "42,100,4,scroll_runtime_id",
+      "search_value": "",
+      "viewport": {
+        "left": 748,
+        "width": 364,
+        "top": 266,
+        "height": 84
+      },
+      "offset": 0,
+      "search_runtime_id": "42,100,4,search_runtime_id"
+    },
+    "button_regions": {
+      "add": {
+        "left": 1045,
+        "width": 57,
+        "top": 754,
+        "height": 34
+      },
+      "cancel": {
+        "left": 964,
+        "width": 75,
+        "top": 754,
+        "height": 34
+      }
+    },
+    "selection_list_policy": "first_matching_numeric_row",
+    "header_page": true,
+    "target_only_checkpoint": {
+      "number": "1000",
+      "stage": "after"
+    },
+    "backup_ocr": {
+      "selected_numbers": [
+        "1000"
+      ],
+      "other_header_words": [],
+      "accepted": [
+        {
+          "text": "1000",
+          "score": 0.99998,
+          "box": [
+            [
+              248,
+              207
+            ],
+            [
+              308,
+              207
+            ],
+            [
+              308,
+              234
+            ],
+            [
+              248,
+              234
+            ]
+          ],
+          "pale_gray_border": 0.9457831325301205,
+          "dark_ink_fraction": 0.04506172839506173
+        }
+      ],
+      "rejected": [],
+      "used_for_selection": false,
+      "selection_verified": false,
+      "final_invite_clicked": false,
+      "reason": "只读备用图像证据；顶部核对由调用方绑定截图后判定，不代表身份核验或邀请成功",
+      "ok": true,
+      "target_member_only": true,
+      "target_stage": "after",
+      "engine": "RapidOCR CPU",
+      "engine_version": "3.9.2",
+      "runtime_version": "1.30.0",
+      "image_sha256": "172300a9c5bd05ae6133a383f9f51cae2fb1721f26fff095ebceb0d52dca7abf",
+      "detections": [],
+      "header_crop_detections": [
+        {
+          "text": "1000",
+          "score": 0.99998,
+          "box": [
+            [
+              248,
+              207
+            ],
+            [
+              308,
+              207
+            ],
+            [
+              308,
+              234
+            ],
+            [
+              248,
+              234
+            ]
+          ],
+          "padding": 4,
+          "source": "gray_label_ink_crop"
+        }
+      ],
+      "list_name_reviews": [],
+      "inference_seconds": 0.081,
+      "header_scan_only": true
+    },
+    "final_invite_clicked": false,
+    "image_path": "redacted.png"
+  },
+  "action_error": {
+    "ok": false,
+    "mode": "click_once",
+    "read_only": false,
+    "guard_stage": "layout",
+    "guard_stable": false,
+    "click_attempted": false,
+    "click_sent": false,
+    "search_attempted": false,
+    "search_applied": false,
+    "final_invite_clicked": false,
+    "region_changes": [
+      {
+        "region": "list",
+        "before": 76,
+        "current": 244,
+        "field": "height"
+      }
+    ],
+    "error": "List layout changed. No click.",
+    "guard_report": {
+      "ok": true,
+      "read_only": true,
+      "scope": "member_visual",
+      "window_handle": 100,
+      "process_id": 200,
+      "dialog_runtime_id": "42,100,4,-7000",
+      "capture": {
+        "left": 748,
+        "width": 364,
+        "top": 218,
+        "height": 580
+      },
+      "regions": {
+        "list": {
+          "left": 748,
+          "width": 364,
+          "top": 350,
+          "height": 244
+        },
+        "viewport": {
+          "left": 748,
+          "width": 364,
+          "top": 350,
+          "height": 394
+        },
+        "search": {
+          "left": 837,
+          "width": 225,
+          "top": 319,
+          "height": 25
+        },
+        "header": {
+          "left": 748,
+          "width": 364,
+          "top": 266,
+          "height": 84
+        }
+      },
+      "ocr": {
+        "language": "",
+        "text": "",
+        "error": "",
+        "words": [],
+        "available": false,
+        "languages": []
+      },
+      "ocr_scan_bounds": null,
+      "scale": 2,
+      "first_row_scan": false,
+      "header_scan_only": false,
+      "header_scroll": {
+        "viewport_runtime_id": "42,100,4,viewport_runtime_id",
+        "inner": {
+          "left": 748,
+          "width": 364,
+          "top": 266,
+          "height": 84
+        },
+        "max_offset": 0,
+        "inner_runtime_id": "42,100,4,inner_runtime_id",
+        "scroll_runtime_id": "42,100,4,scroll_runtime_id",
+        "search_value": "1000",
+        "viewport": {
+          "left": 748,
+          "width": 364,
+          "top": 266,
+          "height": 84
+        },
+        "offset": 0,
+        "search_runtime_id": "42,100,4,search_runtime_id"
+      },
+      "button_regions": {
+        "add": {
+          "left": 1045,
+          "width": 57,
+          "top": 754,
+          "height": 34
+        },
+        "cancel": {
+          "left": 964,
+          "width": 75,
+          "top": 754,
+          "height": 34
+        }
+      },
+      "final_invite_clicked": false,
+      "image_path": "redacted.png"
+    }
+  }
+}

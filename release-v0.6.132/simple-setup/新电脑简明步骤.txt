@@ -1,0 +1,51 @@
+﻿平安喜乐助手 v0.6.132——新电脑简明步骤
+只在新电脑操作。每台电脑的数据独立，不带旧使用记录。
+
+第一步：安装三个软件（已经安装合适版本的可以跳过）。
+
+1. Python 3.13系列，Windows installer (64-bit)：
+   https://www.python.org/downloads/windows/
+   勾选“Add Python to PATH”，保留默认的pip、tcl/tk and IDLE、Launcher，点击Install Now。
+   已有Python 3.11～3.14的64位完整版本也可以，不用重新安装。
+
+2. 微软Visual C++ 2015–2022 x64运行库：
+   https://aka.ms/vs/17/release/vc_redist.x64.exe
+   下载后双击安装。
+
+3. Telegram Desktop：
+   https://desktop.telegram.org/
+   版本尽量与原电脑一致。登录账号，在Settings → Language选择English。
+   多账号沿用你原来的多开方式，每个账号独立登录，不共享助手数据。
+
+第二步：安装Windows英文识别组件（只需一次，需联网）。
+
+在Windows开始菜单搜索“Windows PowerShell”，右键“以管理员身份运行”。
+依次粘贴下面两行，每一行执行完再执行下一行：
+
+Add-WindowsCapability -Online -Name "Language.Basic~~~en-US~0.0.1.0"
+Add-WindowsCapability -Online -Name "Language.OCR~~~en-US~0.0.1.0"
+
+已安装的组件可以重复执行。若结果RestartNeeded为True，保存工作后重启电脑。
+如果命令报错，保留错误文字，先不要继续测试选人。
+这两行不会把Windows显示语言改成英文。关闭管理员PowerShell。
+
+第三步：解压安装包并准备识别环境。
+
+1. 把授权人制作好的“平安喜乐助手-v0.6.132-新电脑安装包.zip”完整解压到本地普通文件夹。
+   进入有START.bat和app.py的那层文件夹，不要直接在ZIP里面运行。
+2. 双击SETUP_OCR.bat，等待出现“OCR imports OK”和“安装成功”。
+   只在第一次安装时执行。失败时保留同目录的ocr_setup.log。
+
+第四步：首次激活，之后直接使用。
+
+1. 双击START.bat，激活窗口点击“复制设备码”。
+2. 把设备码给授权人，在原电脑简易准备工具里“生成并复制激活码”。
+3. 将对应激活码粘贴到新电脑激活窗口并完成激活。
+   以后这台电脑只需双击START.bat，不用再次输入激活码。
+
+助手和Telegram都普通双击启动，保持相同权限。
+准备这台电脑自己的手机号/用户名TXT名单，按你原来的流程使用助手。
+如果这台电脑以前使用过助手，已有本机记录不会自动清除。
+
+没有设备激活窗口、安装失败或提示错误时，请保留窗口文字或日志。
+更详细的说明在程序目录“平安喜乐助手-v0.6.132-首次激活与新电脑安装.txt”。

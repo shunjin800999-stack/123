@@ -1,0 +1,749 @@
+{
+  "ok": true,
+  "read_only": true,
+  "scope": "profile",
+  "scope_class": "class Info::Profile::Widget",
+  "scope_runtime_id": "test-profile",
+  "process_id": 201,
+  "window_handle": 101,
+  "truncated": false,
+  "errors": [],
+  "controls": [
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Info::Profile::Widget",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::ScrollArea",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Info::Profile::TopBar",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class QWidget",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Text",
+      "name": "Test User",
+      "class_name": "class Ui::MarqueeLabel",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": false
+    },
+    {
+      "type": "Button",
+      "name": "Fechar painel",
+      "class_name": "class Info::Profile::`anonymous namespace'::BackdropIconButton",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Button",
+      "name": "Foto de Perfil",
+      "class_name": "class Info::Profile::`anonymous namespace'::Userpic",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::RpWidget",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::HorizontalFitContainer",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Text",
+      "name": "visto ontem às 5:56",
+      "class_name": "class Ui::FlatLabel",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": false
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::PaddingWrap<class Ui::RpWidget>",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Button",
+      "name": "Mensagem",
+      "class_name": "class Info::Profile::TopBarActionButton",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Button",
+      "name": "Silenciar",
+      "class_name": "class Info::Profile::TopBarActionButton",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Button",
+      "name": "Ligar",
+      "class_name": "class Info::Profile::TopBarActionButton",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Button",
+      "name": "Mais",
+      "class_name": "class Info::Profile::TopBarActionButton",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Info::Profile::InnerWidget",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::VerticalLayout",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::SlideWrap<class Ui::VerticalLayout>",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::SlideWrap<class Ui::VerticalLayout>",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::SlideWrap<class Ui::VerticalLayout>",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::VerticalLayout",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::FixedHeightWidget",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::SlideWrap<class Ui::VerticalLayout>",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::SlideWrap<class Ui::VerticalLayout>",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::FixedHeightWidget",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::PaddingWrap<class Ui::RpWidget>",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::PaddingWrap<class Ui::RpWidget>",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::PaddingWrap<class Ui::RpWidget>",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::SlideWrap<class Ui::SettingsButton>",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::PaddingWrap<class Ui::RpWidget>",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::PaddingWrap<class Ui::RpWidget>",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::VerticalLayout",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::VerticalLayout",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::VerticalLayout",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::PaddingWrap<class Ui::RpWidget>",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Info::Profile::FloatingIcon",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::VerticalLayout",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::VerticalLayout",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::SlideWrap<class Ui::VerticalLayout>",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::SlideWrap<class Ui::SettingsButton>",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::VerticalLayout",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Button",
+      "name": "Bloquear usuário",
+      "class_name": "class Ui::SettingsButton",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::FixedHeightWidget",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Separator",
+      "name": "",
+      "class_name": "class Ui::BoxContentDivider",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::FixedHeightWidget",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::FixedHeightWidget",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Separator",
+      "name": "",
+      "class_name": "class Ui::BoxContentDivider",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::FixedHeightWidget",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::PaddingWrap<class Ui::RpWidget>",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::PaddingWrap<class Ui::RpWidget>",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::PaddingWrap<class Ui::RpWidget>",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::PaddingWrap<class Ui::RpWidget>",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::PaddingWrap<class Ui::RpWidget>",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::PaddingWrap<class Ui::RpWidget>",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::PaddingWrap<class Ui::RpWidget>",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::SlideWrap<class Ui::SettingsButton>",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::VerticalLayout",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::VerticalLayout",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::VerticalLayout",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Button",
+      "name": "Aniversário: ",
+      "class_name": "class Ui::RoundButton",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Button",
+      "name": "Horário de atendimento: Fechado, abre em 7 dias",
+      "class_name": "class Ui::RoundButton",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::VerticalLayout",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Button",
+      "name": "ADICIONAR CONTATO",
+      "class_name": "class Ui::SettingsButton",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::PaddingWrap<class Ui::RpWidget>",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Text",
+      "name": "",
+      "class_name": "class Ui::FlatLabel",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": false
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::FixedHeightWidget",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Text",
+      "name": "Celular",
+      "class_name": "class Ui::FlatLabel",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": false
+    },
+    {
+      "type": "Text",
+      "name": "",
+      "class_name": "class Ui::FlatLabel",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": false
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::FixedHeightWidget",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Text",
+      "name": "Bio",
+      "class_name": "class Ui::FlatLabel",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": false
+    },
+    {
+      "type": "Text",
+      "name": "@test_user",
+      "class_name": "class Ui::FlatLabel",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": false
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::FixedHeightWidget",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Text",
+      "name": "Nome de Usuário",
+      "class_name": "class Ui::FlatLabel",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": false
+    },
+    {
+      "type": "Button",
+      "name": "Obter Código QR",
+      "class_name": "class Ui::IconButton",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::SlideWrap<class Ui::VerticalLayout>",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::VerticalLayout",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Text",
+      "name": "",
+      "class_name": "class Ui::FlatLabel",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": false
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::FixedHeightWidget",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Text",
+      "name": "Localização",
+      "class_name": "class Ui::FlatLabel",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": false
+    },
+    {
+      "type": "Button",
+      "name": "5 posts",
+      "class_name": "class Ui::SettingsButton",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::PaddingWrap<class Ui::RpWidget>",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::RpWidget",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::RpWidget",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Info::Profile::FloatingIcon",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::VerticalLayout",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Text",
+      "name": "Fechado",
+      "class_name": "class Ui::FlatLabel",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": false
+    },
+    {
+      "type": "Text",
+      "name": "abre em 7 dias",
+      "class_name": "class Ui::FlatLabel",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": false
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::RpWidget",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Text",
+      "name": "Horário de atendimento",
+      "class_name": "class Ui::FlatLabel",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": false
+    },
+    {
+      "type": "Button",
+      "name": "",
+      "class_name": "class Ui::RoundButton",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Group",
+      "name": "",
+      "class_name": "class Ui::FixedHeightWidget",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": true
+    },
+    {
+      "type": "Text",
+      "name": "Aniversário",
+      "class_name": "class Ui::FlatLabel",
+      "enabled": true,
+      "visible": true,
+      "value_pattern": false
+    }
+  ]
+}

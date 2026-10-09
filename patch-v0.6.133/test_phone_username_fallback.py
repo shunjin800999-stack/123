@@ -1,0 +1,118 @@
+import tempfile,unittest
+from pathlib import Path
+from store import Store
+from contact_queue import ContactQueue
+from test_contact_queue import window
+import test_unregistered_contact as phone
+from test_unregistered_contact import result,dismissed
+import test_contact_submit as submit
+from test_username_missing import missing_report
+
+class PhoneUsernameFallbackTests(unittest.TestCase):
+    fill=submit.ContactSubmitTests.fill
+    submission=phone.UnregisteredTests.submission
+    def setUp(self):
+        self.tmp=tempfile.TemporaryDirectory();self.path=Path(self.tmp.name)/'db.sqlite3'
+        self.store=Store(self.path);self.queue=ContactQueue(self.store)
+        self.store.import_text('phone','+5516991234501\n+5516991234502\n+5516991234503')
+        self.store.import_text('username','@missing_one\n@missing_two\n@third_user')
+        self.store.set_next_number(12)
+        self.qid=self.queue.configure([{'account':a,'target':3,'window':window(i)} for i,a in enumerate(('A','B'),1)],
+            auto_submit=True,new_batch=True,independent=True,phone_username_fallback=True)
+        self.queue.start(self.qid)
+    def tearDown(self):self.store.close();self.tmp.cleanup()
+    def fail_phone(self):
+        j=self.submission();r=result(j)
+        self.queue.claim_unregistered(self.qid,j['id'],[r,r])
+        self.queue.save_unregistered_result(self.qid,j['id'],j['item_id'],dismissed(j))
+        self.queue.finish_unregistered(self.qid,j['id'],j['item_id'])
+    def test_phone_twice_switches_same_account_then_username_twice_next_account(self):
+        self.fail_phone();self.assertEqual(self.queue.current(self.qid)['item']['source'],'phone')
+        self.fail_phone();j=self.queue.current(self.qid)
+        self.assertEqual(j['account'],'A');self.assertEqual(j['active_source'],'username')
+        self.assertEqual(j['item']['value'],'@missing_one')
+        for value in ('@missing_one','@missing_two'):
+            j=self.queue.current(self.qid);self.assertEqual(j['item']['value'],value)
+            j=self.queue.claim_open(self.qid,j['id'])
+            self.queue.save_open_result(self.qid,j['id'],j['item_id'],missing_report(j))
+            self.queue.finish_open(self.qid,j['id'],j['item_id'])
+        j=self.queue.current(self.qid)
+        self.assertEqual(j['account'],'B');self.assertEqual(j['item']['source'],'phone')
+        self.assertEqual(j['lookup_failures'],0);self.assertEqual(j['username_failures'],0)
+        self.assertEqual(self.store.next_contact_number(),12)
+        self.assertEqual(self.queue.snapshot(self.qid)['jobs'][0]['state'],'paused')
+    def test_switch_source_persists_on_restart(self):
+        self.fail_phone();self.fail_phone()
+        self.store.close();self.store=Store(self.path);self.queue=ContactQueue(self.store)
+        j=self.queue.snapshot(self.qid)['jobs'][0]
+        self.assertEqual(j['active_source'],'username');self.assertEqual(j['item']['value'],'@missing_one')
+        self.assertIsNone(self.queue.current(self.qid))
+
+    def test_cleanup_uses_original_failed_phone_form_only(self):
+        self.fail_phone();self.fail_phone()
+        j=self.queue.current(self.qid);proof=self.queue.username_phone_form_cleanup(j)
+        self.assertTrue(proof['main_runtime_id']);self.assertTrue(proof['contact_runtime_id'])
+        with self.store.db:self.store.db.execute('UPDATE contact_queues SET phone_username_fallback=0 WHERE id=?',(self.qid,))
+        self.assertIsNone(self.queue.username_phone_form_cleanup(j))
+
+    def test_resume_username_blocked_by_phone_form_keeps_item_and_number(self):
+        import test_username_contact as fixtures
+        self.fail_phone();self.fail_phone();j=self.queue.current(self.qid)
+        j=self.queue.claim_open(self.qid,j['id']);r=fixtures.opened(j)
+        r.update(ok=False,stage='initial',state='review',add_invoked=False,
+            errors=['Existing dialog preserved; return to the main chat first.'])
+        self.queue.save_open_result(self.qid,j['id'],j['item_id'],r,'blocked')
+        self.queue.stop(self.qid,'blocked',review=True)
+        recovered=self.queue.restart_unsubmitted_username(self.qid,j['window'])
+        self.assertEqual(recovered['item_id'],j['item_id'])
+        self.assertEqual(recovered['state'],'waiting_form');self.assertEqual(self.store.next_contact_number(),12)
+
+    def test_username_success_after_missing_resets_streak_and_reaches_account_target(self):
+        import copy
+        import test_username_contact as fixtures
+        self.fail_phone();self.fail_phone()
+        j=self.queue.current(self.qid);j=self.queue.claim_open(self.qid,j['id'])
+        self.queue.save_open_result(self.qid,j['id'],j['item_id'],missing_report(j))
+        self.queue.finish_open(self.qid,j['id'],j['item_id'])
+        self.assertEqual(self.queue.current(self.qid)['username_failures'],1)
+        for number in (12,13,14):
+            if number==13:self.store.import_text('username','@fourth_user\n@fifth_user')
+            j=self.queue.current(self.qid);self.assertEqual(j['account'],'A');self.assertEqual(j['active_source'],'username')
+            j=self.queue.claim_open(self.qid,j['id'])
+            self.queue.save_open_result(self.qid,j['id'],j['item_id'],fixtures.opened(j));self.queue.finish_open(self.qid,j['id'],j['item_id'])
+            j=self.queue.claim_fill(self.qid,j['id']);self.queue.finish_fill(self.qid,j['id'],fixtures.filled(j))
+            j=self.queue.claim_submit(self.qid,j['id'])
+            self.queue.save_submit_result(self.qid,j['id'],j['item_id'],fixtures.submitted(j));self.queue.finish_submit(self.qid,j['id'],j['item_id'])
+            r=fixtures.fixture('after')
+            for c in r['controls']:
+                if c.get('class_name')=='class Ui::MarqueeLabel':c['name']=str(number)
+                if c.get('name')=='@test_user':c['name']=j['item']['value']
+            self.queue.accept(self.qid,j['id'],[r,copy.deepcopy(r)])
+            self.assertEqual(self.store.next_contact_number(),number+1)
+            if number<14:self.assertEqual(self.queue.current(self.qid)['username_failures'],0)
+        j=self.queue.current(self.qid)
+        self.assertEqual(j['account'],'B');self.assertEqual(j['active_source'],'phone')
+        self.assertEqual(self.queue.snapshot(self.qid)['jobs'][0]['state'],'target_reached')
+
+    def test_launch_length_failure_recovers_same_username_after_phone_switch(self):
+        self.fail_phone();self.fail_phone();j=self.queue.current(self.qid)
+        j=self.queue.claim_open(self.qid,j['id'])
+        self.queue.save_open_result(self.qid,j['id'],j['item_id'],None,'[WinError 206] 文件名或扩展名太长。')
+        self.queue.stop(self.qid,'launch failed',review=True)
+        cleanup=self.queue.username_phone_form_cleanup(j)
+        self.assertTrue(cleanup['contact_runtime_id'])
+        recovered=self.queue.restart_unsubmitted_username(self.qid,j['window'])
+        self.assertEqual(recovered['item_id'],j['item_id'])
+        self.assertEqual(recovered['active_source'],'username')
+        self.assertEqual(recovered['lookup_failures'],2)
+        self.assertEqual(recovered['state'],'waiting_form')
+        self.assertEqual(self.store.next_contact_number(),12)
+        self.assertEqual(self.queue.username_phone_form_cleanup(recovered),cleanup)
+
+    def test_unknown_launch_failure_does_not_allow_requery(self):
+        self.fail_phone();self.fail_phone();j=self.queue.current(self.qid)
+        j=self.queue.claim_open(self.qid,j['id'])
+        self.queue.save_open_result(self.qid,j['id'],j['item_id'],None,'操作超时；可能已经打开')
+        self.queue.stop(self.qid,'unknown execution',review=True)
+        with self.assertRaises(ValueError):self.queue.restart_unsubmitted_username(self.qid,j['window'])
+        self.assertEqual(self.store.next_contact_number(),12)

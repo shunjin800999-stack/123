@@ -1,0 +1,349 @@
+{
+  "note": "Sanitized actual pre-click737 metadata; after layout is reproduced, pixels are synthetic.",
+  "before": {
+    "window_handle": 100,
+    "first_row_scan": true,
+    "scale": 2,
+    "scope": "member_visual",
+    "ok": true,
+    "final_invite_clicked": false,
+    "capture": {
+      "left": 748,
+      "width": 364,
+      "top": 218,
+      "height": 580
+    },
+    "regions": {
+      "list": {
+        "left": 748,
+        "width": 364,
+        "top": 310,
+        "height": 76
+      },
+      "viewport": {
+        "left": 748,
+        "width": 364,
+        "top": 310,
+        "height": 434
+      },
+      "search": {
+        "left": 916,
+        "width": 146,
+        "top": 279,
+        "height": 25
+      },
+      "header": {
+        "left": 748,
+        "width": 364,
+        "top": 266,
+        "height": 44
+      },
+      "header_ocr": {
+        "left": 748.0,
+        "top": 266.0,
+        "width": 364.0,
+        "height": 44.0
+      }
+    },
+    "dialog_runtime_id": "42,100,4,-7000",
+    "ocr": {
+      "language": "zh-Hans-CN",
+      "text": "Ad d Members 52g4 / 200000 736 737 737 last seen recently",
+      "error": "",
+      "words": [
+        {
+          "left": 47,
+          "width": 41,
+          "top": 33,
+          "height": 27,
+          "text": "Ad"
+        },
+        {
+          "left": 91,
+          "width": 17,
+          "top": 33,
+          "height": 27,
+          "text": "d"
+        },
+        {
+          "left": 120,
+          "width": 143,
+          "top": 33,
+          "height": 27,
+          "text": "Members"
+        },
+        {
+          "left": 283,
+          "width": 55,
+          "top": 41,
+          "height": 19,
+          "text": "52g4"
+        },
+        {
+          "left": 343,
+          "width": 11,
+          "top": 41,
+          "height": 19,
+          "text": "/"
+        },
+        {
+          "left": 361,
+          "width": 82,
+          "top": 41,
+          "height": 19,
+          "text": "200000"
+        },
+        {
+          "left": 250,
+          "width": 42,
+          "top": 131,
+          "height": 19,
+          "text": "736"
+        },
+        {
+          "left": 147,
+          "width": 43,
+          "top": 231,
+          "height": 19,
+          "text": "737"
+        },
+        {
+          "left": 335,
+          "width": 42,
+          "top": 131,
+          "height": 19,
+          "text": "737"
+        },
+        {
+          "left": 149,
+          "width": 40,
+          "top": 271,
+          "height": 21,
+          "text": "last"
+        },
+        {
+          "left": 197,
+          "width": 53,
+          "top": 277,
+          "height": 15,
+          "text": "seen"
+        },
+        {
+          "left": 259,
+          "width": 95,
+          "top": 271,
+          "height": 27,
+          "text": "recently"
+        }
+      ],
+      "available": true,
+      "languages": [
+        "zh-Hans-CN"
+      ]
+    },
+    "ocr_scan_bounds": [
+      0,
+      0,
+      728,
+      336
+    ],
+    "process_id": 200,
+    "image_path": "redacted.png",
+    "read_only": true,
+    "button_regions": {
+      "add": {
+        "left": 1045,
+        "width": 57,
+        "top": 754,
+        "height": 34
+      },
+      "cancel": {
+        "left": 964,
+        "width": 75,
+        "top": 754,
+        "height": 34
+      }
+    },
+    "header_scroll": {
+      "viewport_runtime_id": "42,100,4,viewport_runtime_id",
+      "inner": {
+        "left": 748,
+        "width": 364,
+        "top": 266,
+        "height": 44
+      },
+      "max_offset": 0,
+      "inner_runtime_id": "42,100,4,inner_runtime_id",
+      "scroll_runtime_id": "42,100,4,scroll_runtime_id",
+      "search_value": "737",
+      "viewport": {
+        "left": 748,
+        "width": 364,
+        "top": 266,
+        "height": 44
+      },
+      "offset": 0,
+      "search_runtime_id": "42,100,4,search_runtime_id"
+    },
+    "search_preparation": {
+      "number": "737",
+      "search_attempted": true,
+      "value_matches": true
+    },
+    "selection_list_policy": "first_matching_numeric_row",
+    "header_page": true,
+    "progressive_member_ocr": true,
+    "member_row_target": "737",
+    "window_title": "Test group",
+    "executable": "Telegram.exe"
+  },
+  "after": {
+    "window_handle": 100,
+    "first_row_scan": true,
+    "scale": 2,
+    "scope": "member_visual",
+    "ok": true,
+    "final_invite_clicked": false,
+    "capture": {
+      "left": 748,
+      "width": 364,
+      "top": 218,
+      "height": 580
+    },
+    "regions": {
+      "list": {
+        "left": 748,
+        "width": 364,
+        "top": 310,
+        "height": 76
+      },
+      "viewport": {
+        "left": 748,
+        "width": 364,
+        "top": 310,
+        "height": 434
+      },
+      "search": {
+        "left": 995,
+        "width": 107,
+        "top": 279,
+        "height": 25
+      },
+      "header": {
+        "left": 748,
+        "width": 364,
+        "top": 266,
+        "height": 44
+      },
+      "header_ocr": {
+        "left": 748.0,
+        "top": 266.0,
+        "width": 364.0,
+        "height": 44.0
+      }
+    },
+    "dialog_runtime_id": "42,100,4,-7000",
+    "ocr": {
+      "language": "zh-Hans-CN",
+      "text": "Add Members 5295 / 200000",
+      "error": "",
+      "words": [
+        {
+          "left": 47,
+          "width": 41,
+          "top": 33,
+          "height": 27,
+          "text": "Ad"
+        },
+        {
+          "left": 91,
+          "width": 17,
+          "top": 33,
+          "height": 27,
+          "text": "d"
+        },
+        {
+          "left": 120,
+          "width": 143,
+          "top": 33,
+          "height": 27,
+          "text": "Members"
+        },
+        {
+          "left": 283,
+          "width": 55,
+          "top": 41,
+          "height": 19,
+          "text": "52g4"
+        },
+        {
+          "left": 343,
+          "width": 11,
+          "top": 41,
+          "height": 19,
+          "text": "/"
+        },
+        {
+          "left": 361,
+          "width": 82,
+          "top": 41,
+          "height": 19,
+          "text": "200000"
+        }
+      ],
+      "available": true,
+      "languages": [
+        "zh-Hans-CN"
+      ]
+    },
+    "ocr_scan_bounds": [
+      0,
+      0,
+      728,
+      184
+    ],
+    "process_id": 200,
+    "image_path": "redacted.png",
+    "read_only": true,
+    "button_regions": {
+      "add": {
+        "left": 1045,
+        "width": 57,
+        "top": 754,
+        "height": 34
+      },
+      "cancel": {
+        "left": 964,
+        "width": 75,
+        "top": 754,
+        "height": 34
+      }
+    },
+    "header_scroll": {
+      "viewport_runtime_id": "42,100,4,viewport_runtime_id",
+      "inner": {
+        "left": 748,
+        "width": 364,
+        "top": 266,
+        "height": 44
+      },
+      "max_offset": 0,
+      "inner_runtime_id": "42,100,4,inner_runtime_id",
+      "scroll_runtime_id": "42,100,4,scroll_runtime_id",
+      "search_value": "",
+      "viewport": {
+        "left": 748,
+        "width": 364,
+        "top": 266,
+        "height": 44
+      },
+      "offset": 0,
+      "search_runtime_id": "42,100,4,search_runtime_id"
+    },
+    "selection_list_policy": "first_matching_numeric_row",
+    "header_page": true,
+    "window_title": "Test group",
+    "executable": "Telegram.exe",
+    "header_scan_only": true
+  }
+}

@@ -1,0 +1,499 @@
+{
+  "source_note": "Sanitized actual 1027 Premium-star report; OCR/geometry/scores are original. PNG bytes were not included. Windows input is simulated in tests.",
+  "expected_selected": [
+    "1015",
+    "1016",
+    "1017",
+    "1018",
+    "1019",
+    "1020",
+    "1021",
+    "1022",
+    "1023",
+    "1024",
+    "1025",
+    "1026"
+  ],
+  "before": {
+    "window_handle": 100,
+    "first_row_scan": true,
+    "scale": 2,
+    "scope": "member_visual",
+    "ok": true,
+    "final_invite_clicked": false,
+    "capture": {
+      "left": 748,
+      "width": 364,
+      "top": 218,
+      "height": 580
+    },
+    "regions": {
+      "list": {
+        "left": 748,
+        "width": 364,
+        "top": 370,
+        "height": 76
+      },
+      "viewport": {
+        "left": 748,
+        "width": 364,
+        "top": 370,
+        "height": 374
+      },
+      "search": {
+        "left": 758,
+        "width": 304,
+        "top": 339,
+        "height": 25
+      },
+      "header": {
+        "left": 748,
+        "width": 364,
+        "top": 266,
+        "height": 104
+      },
+      "header_ocr": {
+        "left": 748.0,
+        "top": 276.0,
+        "width": 364.0,
+        "height": 94.0
+      }
+    },
+    "dialog_runtime_id": "test-premium-dialog",
+    "ocr": {
+      "language": "zh-Hans-CN",
+      "text": "Ad d Members 5303 / 200000 1 UI 9 1023 卜 027 1 UZU 1024 和 毋 IUZI 1025 1 UZZ 1026 1027 会 last seen 1 1 minutes ago",
+      "error": "",
+      "words": [
+        {
+          "left": 47,
+          "width": 41,
+          "top": 33,
+          "height": 27,
+          "text": "Ad"
+        },
+        {
+          "left": 91,
+          "width": 17,
+          "top": 33,
+          "height": 27,
+          "text": "d"
+        },
+        {
+          "left": 120,
+          "width": 143,
+          "top": 33,
+          "height": 27,
+          "text": "Members"
+        },
+        {
+          "left": 283,
+          "width": 54,
+          "top": 41,
+          "height": 19,
+          "text": "5303"
+        },
+        {
+          "left": 343,
+          "width": 11,
+          "top": 41,
+          "height": 19,
+          "text": "/"
+        },
+        {
+          "left": 361,
+          "width": 82,
+          "top": 41,
+          "height": 19,
+          "text": "200000"
+        },
+        {
+          "left": 93,
+          "width": 9,
+          "top": 95,
+          "height": 15,
+          "text": "1"
+        },
+        {
+          "left": 106,
+          "width": 24,
+          "top": 95,
+          "height": 15,
+          "text": "UI"
+        },
+        {
+          "left": 134,
+          "width": 14,
+          "top": 95,
+          "height": 15,
+          "text": "9"
+        },
+        {
+          "left": 93,
+          "width": 54,
+          "top": 171,
+          "height": 19,
+          "text": "1023"
+        },
+        {
+          "left": 19,
+          "width": 10,
+          "top": 241,
+          "height": 37,
+          "text": "卜"
+        },
+        {
+          "left": 34,
+          "width": 41,
+          "top": 251,
+          "height": 19,
+          "text": "027"
+        },
+        {
+          "left": 265,
+          "width": 9,
+          "top": 95,
+          "height": 15,
+          "text": "1"
+        },
+        {
+          "left": 278,
+          "width": 42,
+          "top": 95,
+          "height": 15,
+          "text": "UZU"
+        },
+        {
+          "left": 265,
+          "width": 55,
+          "top": 171,
+          "height": 19,
+          "text": "1024"
+        },
+        {
+          "left": 379,
+          "width": 8,
+          "top": 95,
+          "height": 13,
+          "text": "和"
+        },
+        {
+          "left": 383,
+          "width": 22,
+          "top": 95,
+          "height": 16,
+          "text": "毋"
+        },
+        {
+          "left": 437,
+          "width": 51,
+          "top": 95,
+          "height": 15,
+          "text": "IUZI"
+        },
+        {
+          "left": 437,
+          "width": 54,
+          "top": 171,
+          "height": 19,
+          "text": "1025"
+        },
+        {
+          "left": 609,
+          "width": 9,
+          "top": 95,
+          "height": 15,
+          "text": "1"
+        },
+        {
+          "left": 622,
+          "width": 41,
+          "top": 95,
+          "height": 15,
+          "text": "UZZ"
+        },
+        {
+          "left": 609,
+          "width": 55,
+          "top": 171,
+          "height": 19,
+          "text": "1026"
+        },
+        {
+          "left": 149,
+          "width": 55,
+          "top": 351,
+          "height": 19,
+          "text": "1027"
+        },
+        {
+          "left": 214,
+          "width": 23,
+          "top": 348,
+          "height": 22,
+          "text": "会"
+        },
+        {
+          "left": 149,
+          "width": 40,
+          "top": 391,
+          "height": 21,
+          "text": "last"
+        },
+        {
+          "left": 197,
+          "width": 53,
+          "top": 397,
+          "height": 15,
+          "text": "seen"
+        },
+        {
+          "left": 260,
+          "width": 7,
+          "top": 393,
+          "height": 18,
+          "text": "1"
+        },
+        {
+          "left": 274,
+          "width": 7,
+          "top": 393,
+          "height": 18,
+          "text": "1"
+        },
+        {
+          "left": 293,
+          "width": 96,
+          "top": 393,
+          "height": 19,
+          "text": "minutes"
+        },
+        {
+          "left": 396,
+          "width": 43,
+          "top": 397,
+          "height": 21,
+          "text": "ago"
+        }
+      ],
+      "available": true,
+      "languages": [
+        "zh-Hans-CN"
+      ]
+    },
+    "ocr_scan_bounds": [
+      0,
+      0,
+      728,
+      456
+    ],
+    "process_id": 200,
+    "read_only": true,
+    "button_regions": {
+      "add": {
+        "left": 1045,
+        "width": 57,
+        "top": 754,
+        "height": 34
+      },
+      "cancel": {
+        "left": 964,
+        "width": 75,
+        "top": 754,
+        "height": 34
+      }
+    },
+    "header_scroll": {
+      "viewport_runtime_id": "test-viewport_runtime_id",
+      "inner": {
+        "left": 748,
+        "width": 364,
+        "top": 206,
+        "height": 164
+      },
+      "max_offset": 60,
+      "inner_runtime_id": "test-inner_runtime_id",
+      "scroll_runtime_id": "test-scroll_runtime_id",
+      "search_value": "1027",
+      "viewport": {
+        "left": 748,
+        "width": 364,
+        "top": 266,
+        "height": 104
+      },
+      "offset": 60,
+      "search_runtime_id": "test-search_runtime_id"
+    },
+    "search_preparation": {
+      "search_attempted": true,
+      "number": "1027",
+      "value_matches": true
+    },
+    "selection_list_policy": "first_matching_numeric_row",
+    "header_page": true,
+    "target_member_only": true,
+    "target_only_checkpoint": {
+      "number": "1027",
+      "stage": "before"
+    },
+    "progressive_member_ocr": true,
+    "member_row_target": "1027",
+    "selection_header_ocr": {
+      "ok": true,
+      "used_for_selection": true,
+      "image_sha256": "6faa600cb4458f069e9978283a3bd0e73d32d3cc41630c1d8dc52e69d038ceff",
+      "frame": {
+        "window_handle": 100,
+        "process_id": 200,
+        "dialog_runtime_id": "test-premium-dialog",
+        "capture": {
+          "left": 748,
+          "width": 364,
+          "top": 218,
+          "height": 580
+        },
+        "regions": {
+          "list": {
+            "left": 748,
+            "width": 364,
+            "top": 370,
+            "height": 76
+          },
+          "viewport": {
+            "left": 748,
+            "width": 364,
+            "top": 370,
+            "height": 374
+          },
+          "search": {
+            "left": 758,
+            "width": 304,
+            "top": 339,
+            "height": 25
+          },
+          "header": {
+            "left": 748,
+            "width": 364,
+            "top": 266,
+            "height": 104
+          },
+          "header_ocr": {
+            "left": 748.0,
+            "top": 276.0,
+            "width": 364.0,
+            "height": 94.0
+          }
+        },
+        "scale": 2
+      }
+    },
+    "backup_ocr": {
+      "selected_numbers": [],
+      "other_header_words": [],
+      "accepted": [],
+      "rejected": [],
+      "used_for_selection": false,
+      "selection_verified": false,
+      "final_invite_clicked": false,
+      "reason": "只读备用图像证据；顶部核对由调用方绑定截图后判定，不代表身份核验或邀请成功",
+      "target_member_only": true,
+      "target_stage": "before",
+      "ok": true,
+      "engine": "RapidOCR CPU",
+      "engine_version": "3.9.2",
+      "runtime_version": "1.30.0",
+      "image_sha256": "6faa600cb4458f069e9978283a3bd0e73d32d3cc41630c1d8dc52e69d038ceff",
+      "detections": [],
+      "header_crop_detections": [],
+      "list_name_reviews": [],
+      "inference_seconds": 3.431,
+      "header_scan_only": false,
+      "member_row_scan": {
+        "policy": "first_then_fallback",
+        "number": "1027",
+        "matched_row": null,
+        "crop_bounds": null,
+        "scans": [
+          {
+            "row": 1,
+            "crop_bounds": [
+              0,
+              304,
+              728,
+              456
+            ],
+            "ocr_bounds": [
+              0,
+              304,
+              728,
+              456
+            ],
+            "detections": [
+              {
+                "text": "1027 ★",
+                "score": 0.88483,
+                "box": [
+                  [
+                    143.0,
+                    341.0
+                  ],
+                  [
+                    243.0,
+                    341.0
+                  ],
+                  [
+                    243.0,
+                    376.0
+                  ],
+                  [
+                    143.0,
+                    376.0
+                  ]
+                ]
+              },
+              {
+                "text": "last seen 11 minutes ago",
+                "score": 0.99964,
+                "box": [
+                  [
+                    141.0,
+                    382.0
+                  ],
+                  [
+                    445.0,
+                    388.0
+                  ],
+                  [
+                    445.0,
+                    424.0
+                  ],
+                  [
+                    140.0,
+                    419.0
+                  ]
+                ]
+              }
+            ],
+            "analysis": {
+              "number": "1027",
+              "usable": true,
+              "list_matches": 0,
+              "chip_matches": 0,
+              "selected_numbers": [],
+              "ignored_list_fragments": 1,
+              "list_candidates": [],
+              "other_header_words": [],
+              "list_match_policy": "first_matching_numeric_row",
+              "reason": "仅为文字识别诊断，不代表身份核验或群邀请成功",
+              "header_source": "RapidOCR bound capture",
+              "rapid_list_candidates": [],
+              "ignored_later_matches": 0
+            },
+            "matched": false
+          }
+        ]
+      },
+      "request_id": "6767b75e579a49c2b700c71d64c9c5a4"
+    }
+  }
+}
